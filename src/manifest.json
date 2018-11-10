@@ -1,0 +1,29 @@
+
+{
+  "short_name": "I3IV",
+  "name": "Minimalist Baker",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+   {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#432312",
+  "background_color": "#ab43ac",
+  "orientation": "landscape"
+}

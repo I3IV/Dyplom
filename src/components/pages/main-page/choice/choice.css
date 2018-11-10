@@ -1,0 +1,120 @@
+@media(max-width: 1600px) {
+  .food {
+    margin-left: 3rem !important;
+  }
+  .choice {
+    width: 90% !important;
+  }
+}
+
+@media(max-width: 1116px) {
+  .food {
+    margin-left: 0 !important;
+    margin-top: 2rem;
+  }
+  .choice {
+    flex-direction: column !important;
+  }
+  .item {
+    width: 50rem !important;
+    height: 18rem !important;
+  }
+  .shadow {
+    margin-top: 16rem !important;
+  }
+}
+
+@media(max-width: 850px) {
+  .item {
+    width: 40rem !important;
+  }
+}
+
+@media(max-width: 645px) {
+  .item {
+    width: 31rem !important;
+  }
+  .item-label {
+    height: 3rem !important;
+    font-size: 2rem !important;
+    line-height: 4rem !important;
+  }
+  .item:hover .item-label {
+    font-size: 2rem !important;
+  }
+}
+
+@media(max-width: 520px) {
+  .item {
+    width: 24rem !important;
+    height: 14rem !important;
+  }
+  .food {
+    margin-left: 0 !important;
+    margin-top: 2rem !important;
+  }
+}
+@media(max-width: 400px) {
+  .item {
+    width: 22.2rem !important;
+    height: 17rem !important;
+  }
+  .choice {
+    margin-top: 4rem !important;
+  }
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 32rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+  align-self: center;
+  border-radius: 0.3rem;
+  z-index: 2;
+}
+
+.shadow {
+  background-image: url("../../../../assets/shadow.jpg");
+  filter: blur(60px);
+  height: 5rem;
+  width: 100%;
+  margin-top: 34rem;
+  z-index: -1;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+  .item:hover .item-label {
+    font-size: 5rem;
+    background-color: rgba(10, 10, 10, 0.6);
+  }
+
+.item-label {
+  position: absolute;
+  height: 5rem;
+  color: white;
+  font-size: 4rem;
+  z-index: 3;
+  border-radius: 0.3rem;
+  padding: 0rem 1rem 1rem 1.5rem;
+  transition: 0.2s ease; }
+
+.food {
+  background-image: url("../../../../assets/food3.jpg");
+  margin-left: 6rem; }
+
+.restaurant {
+  background-image: url("../../../../assets/restaurant1.jpg");
+}

@@ -1,0 +1,137 @@
+.app{
+  justify-content: flex-start;
+}
+.header{
+  justify-content: center;
+  margin-bottom: 8rem;
+  margin-top: 4rem;
+}
+@media(max-width: 400px) {
+  .header {
+    margin-bottom: 2rem !important;
+    margin-top: -2rem !important;
+  }
+  .form {
+    margin-top: -1rem !important;
+  }
+  .label{
+    font-size: 1.5rem !important;
+  }
+}
+.navigation-list{
+  display: none;
+}
+.logo img {
+  transform: rotate(0);
+  width: 30rem !important;
+  height: 10.26rem !important;
+  margin-left: 0 !important;
+  margin-top: 0rem !important;
+}
+
+.logo {
+  width: auto !important;
+  height: auto !important;
+}
+
+.paper-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 25rem;
+  height: 21rem;
+  padding-top: 2rem;
+}
+
+.paper-form .label {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input{
+  width: 70%;
+  color: black !important;
+  height: 3.1rem;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 70%;
+}
+.buttons a{
+  margin-top: .7rem;
+  color: black;
+}
+.paper-form .button{
+  height: 2.55rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border-radius: 0.3rem;
+  border: 0.05rem solid black;
+  font-weight: 700;
+  width: 12.5rem;
+}
+
+.paper-form .button:hover {
+  color: black;
+  background-color: white;
+  transition: .2s ease;
+}
+
+@media(max-width: 600px) {
+  .logo img {
+    width: 24rem !important;
+    height: 8.89rem !important;
+  }
+
+  .paper-form {
+    width: 21rem;
+    height: 19rem;
+  }
+
+  .paper-form .label {
+    margin-bottom: 1rem;
+  }
+
+  .input{
+    width: 80%;
+  }
+
+  .buttons{
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .paper-form .button{
+    width: 12.5rem;
+  }
+
+
+}
+@media(max-width: 400px){
+  .logo img {
+    width: 21rem !important;
+    height: 7.18rem !important;
+  }
+  .paper-form {
+    width: 19rem;
+    height: 17rem;
+  }
+  .input {
+    height: 2.7rem;
+  }
+  .buttons{
+    margin-top: 1rem !important;
+    width: 80%;
+  }
+  .buttons .button {
+    height: 2.5rem;
+  }
+
+  .paper-form .label {
+    margin-bottom: 1rem !important;
+  }
+}

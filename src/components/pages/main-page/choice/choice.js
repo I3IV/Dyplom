@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './choice.css';
+import '../main-page.css';
 import ChoiceItem from '../choice-item';
 
 const Choice = ({ choiceItems }) => {

@@ -3,13 +3,15 @@ import React from 'react';
 import Header from '../../shared-components/header';
 import RegistrationForm from './registration-form';
 
+import './registration-page.css';
+
 const RegistrationPage = () => {
 
   return (
-    <React.Fragment>
+    <div className="registration_page">
       <Header/>
       <RegistrationForm />
-    </React.Fragment>
+    </div>
   );
 }
 export default RegistrationPage;

@@ -4,18 +4,20 @@ import Header from '../../shared-components/header';
 import Choice from './choice';
 import Footer from './footer';
 
+import './main-page.css';
+
 const MainPage = (props) => {
 
   const navItems = [
-    {label: 'Join us'},
-    {label: 'Contact'},
-    {label: 'Login'},
-    {label: 'Registration'}
+    {label: 'Join us', link: '/'},
+    {label: 'Contact', link: '/'},
+    {label: 'Login', link: '/login'},
+    {label: 'Registration', link: '/registration'}
   ];
 
   const choiceItems = [
-    {label: 'Restauracje', classN: 'restaurant'},
-    {label: 'Jedzenie', classN: 'food'}
+    {label: 'Restaurants', classN: 'restaurant'},
+    {label: 'Food', classN: 'food'}
   ];
 
   const footerItems = [
@@ -26,11 +28,11 @@ const MainPage = (props) => {
     {label: 'Catering'}
   ];
   return (
-    <React.Fragment>
+    <div className="main_page">
       <Header navItems={ navItems } />
-      <Choice choiceItems = { choiceItems }/>
+        <Choice choiceItems = { choiceItems }/>
       <Footer footerItems={ footerItems }/>
-    </React.Fragment>
+    </div>
   );
 }
 export default MainPage;

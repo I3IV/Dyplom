@@ -1,34 +1,26 @@
-@media(max-width: 1116px) {
-  .logo img{
-    height: 6.84rem !important;
-    width: 20rem !important;
-    /* 2.924 */
-  }
-}
 
 @media(max-width: 520px) {
-  .logo img {
-    transform: rotate(0) !important;
-  }
+
   .logo {
     width: 100% !important;
     height: 60% !important;
     justify-content: center;
   }
+  .logo img {
+    margin-left: 0 !important;
+  }
 }
 
 @media(max-width: 400px) {
   .logo {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
   }
 }
 
 .logo img {
-  transform: rotate(-20deg);
-  height: 8.55rem;
-  width: 25rem;
-  margin-left: 0.5rem;
+  width: 12rem;
+  margin-left: 3rem;
+  margin-top: -1rem;
   flex-shrink: 0;
   z-index: 0;
  }
@@ -39,4 +31,5 @@
    min-height: 110px;
    display: flex;
    align-items: center;
+   margin-top: 2rem;
  }

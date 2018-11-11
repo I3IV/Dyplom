@@ -1,71 +1,81 @@
-.app{
+.login_page{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: white;
 }
-.header{
+
+.login_page .form {
+  width: 100%;
+  display: flex;
   justify-content: center;
-  margin-bottom: 8rem;
-  margin-top: 4rem;
+}
+.login_page .header{
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 @media(max-width: 400px) {
-  .header {
+  .login_page .header {
     margin-bottom: 2rem !important;
-    margin-top: -2rem !important;
   }
-  .form {
+  .login_page .form {
     margin-top: -1rem !important;
   }
-  .label{
+  .login_page .label{
     font-size: 1.5rem !important;
   }
 }
-.navigation-list{
+.login_page .navigation-list{
   display: none;
 }
-.logo img {
+.login_page .logo img {
   transform: rotate(0);
-  width: 30rem !important;
-  height: 10.26rem !important;
+  width: 18rem !important;
   margin-left: 0 !important;
-  margin-top: 0rem !important;
+  margin-top: 0!important;
 }
 
-.logo {
+.login_page .logo {
   width: auto !important;
   height: auto !important;
 }
 
-.paper-form {
+.login_page .paper-form {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  width: 25rem;
-  height: 21rem;
+  width: 26rem;
+  height: 22rem;
   padding-top: 2rem;
 }
 
-.paper-form .label {
+.login_page .paper-form .label {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-.input{
+.login_page .input{
   width: 70%;
   color: black !important;
   height: 3.1rem;
 }
 
-.buttons{
+.login_page .buttons{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 1.5rem;
   width: 70%;
 }
-.buttons a{
+.login_page .buttons a{
   margin-top: .7rem;
   color: black;
 }
-.paper-form .button{
+.login_page .paper-form .button{
   height: 2.55rem;
   color: white;
   padding: 0.5rem 1rem;
@@ -76,62 +86,67 @@
   width: 12.5rem;
 }
 
-.paper-form .button:hover {
+.login_page .paper-form .button:hover {
   color: black;
   background-color: white;
   transition: .2s ease;
 }
 
 @media(max-width: 600px) {
-  .logo img {
-    width: 24rem !important;
-    height: 8.89rem !important;
+  .header{
+    margin-top: 0 !important;
+    height: 20%;
+  }
+  .login_page .logo img {
+    width: 15rem !important;
   }
 
-  .paper-form {
+  .login_page .paper-form {
     width: 21rem;
-    height: 19rem;
+    height: 21rem;
   }
 
-  .paper-form .label {
+  .login_page .paper-form .label {
     margin-bottom: 1rem;
   }
 
-  .input{
+  .login_page .input{
     width: 80%;
   }
 
-  .buttons{
+  .login_page .buttons{
     margin-top: 1.5rem;
     width: 80%;
   }
-  .paper-form .button{
+  .login_page .paper-form .button{
     width: 12.5rem;
+  }
+  .login_page a {
+    font-size: 0.9rem;
   }
 
 
 }
 @media(max-width: 400px){
-  .logo img {
-    width: 21rem !important;
-    height: 7.18rem !important;
+  .login_page .logo img {
+    width: 12rem !important;
   }
-  .paper-form {
+  .login_page .paper-form {
     width: 19rem;
-    height: 17rem;
+    height: 19rem;
   }
-  .input {
+  .login_page .input {
     height: 2.7rem;
   }
-  .buttons{
+  .login_page .buttons{
     margin-top: 1rem !important;
     width: 80%;
   }
-  .buttons .button {
+  .login_page .buttons .button {
     height: 2.5rem;
   }
 
-  .paper-form .label {
+  .login_page .paper-form .label {
     margin-bottom: 1rem !important;
   }
 }

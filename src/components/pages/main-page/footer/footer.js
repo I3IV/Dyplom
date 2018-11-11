@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './footer.css';
+import '../main-page.css';
 import FooterItem from '../footer-item';
 
 const Footer = ({ footerItems }) => {

@@ -3,13 +3,15 @@ import React from 'react';
 import Header from '../../shared-components/header';
 import LoginForm from './login-form';
 
+import './login-page.css';
+
 const LoginPage = () => {
 
   return (
-    <React.Fragment>
+    <div className="login_page">
       <Header/>
       <LoginForm />
-    </React.Fragment>
+    </div>
   );
 }
 export default LoginPage;

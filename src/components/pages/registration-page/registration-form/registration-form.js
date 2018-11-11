@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
-import './registration-form.css';
+import '../registration-page.css';
 
 
 class RegistrationForm extends Component {
@@ -15,19 +16,37 @@ class RegistrationForm extends Component {
           <div className="row">
             <TextField
               className="input"
-              label="Email"
+              label="Name"
               margin="normal"
               variant="outlined"
-              value="illia.sydun@gmail.com"
+              value="Illia"
             />
           <span className="br"></span>
             <TextField
                 className="input"
-                label="Password"
+                label="Surname"
                 margin="normal"
                 variant="outlined"
-                type="password"
-                value="passwordpass"
+                value="Sydun"
+              />
+          </div>
+          <div className="row">
+            <TextField
+              className="input"
+              label="Email"
+              margin="normal"
+              variant="outlined"
+              type="email"
+              value="illia.sydun@gmail.com"
+              />
+            <span className="br"></span>
+            <TextField
+              className="input"
+              label="Phone Number"
+              margin="normal"
+              variant="outlined"
+              type="phone"
+              value="+48 733 423 688"
               />
           </div>
           <div className="row">
@@ -42,26 +61,7 @@ class RegistrationForm extends Component {
             <span className="br"></span>
             <TextField
               className="input"
-              label="Password"
-              margin="normal"
-              variant="outlined"
-              type="password"
-              value="passwordpass"
-              />
-          </div>
-          <div className="row">
-            <TextField
-              className="input"
-              label="Password"
-              margin="normal"
-              variant="outlined"
-              type="password"
-              value="passwordpass"
-              />
-            <span className="br"></span>
-            <TextField
-              className="input"
-              label="Password"
+              label="Confirm Password"
               margin="normal"
               variant="outlined"
               type="password"
@@ -70,7 +70,7 @@ class RegistrationForm extends Component {
           </div>
         <div className="buttons">
           <Button className="button">Create account</Button>
-          <a href="localhost:3000">Already have one?</a>
+          <Link to="/login">Already have one?</Link>
         </div>
 
         </Paper>

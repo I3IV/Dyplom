@@ -93,7 +93,7 @@
 }
 
 @media(max-width: 600px) {
-  .header{
+  .login_page .header{
     margin-top: 0 !important;
     height: 20%;
   }

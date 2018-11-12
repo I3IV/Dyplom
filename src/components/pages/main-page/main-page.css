@@ -119,14 +119,14 @@
 }
 
 @media(max-width: 560px) {
-  .main_page .button span {
-    font-size: 0.7rem;
-  }
   .main_page .footer {
     height: 2.5rem !important;
   }
   .main_page .footer .button {
     margin-left: 0rem !important;
+  }
+  .main_page .footer .button span {
+    font-size: 0.7rem;
   }
 }
 

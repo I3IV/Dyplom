@@ -1,13 +1,14 @@
-@media(max-width: 520px) {
+@media(max-width: 480px) {
   .header {
     flex-wrap: wrap;
+    align-content: flex-start;
   }
 }
 .header {
   width: 100%;
-  height: 25%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 9rem;
+  margin-top: 2rem;
 }

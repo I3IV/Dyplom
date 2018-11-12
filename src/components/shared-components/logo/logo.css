@@ -1,19 +1,13 @@
 
-@media(max-width: 520px) {
+@media(max-width: 480px) {
 
   .logo {
     width: 100% !important;
-    height: 60% !important;
+    height: 50% !important;
     justify-content: center;
   }
   .logo img {
     margin-left: 0 !important;
-  }
-}
-
-@media(max-width: 400px) {
-  .logo {
-    margin-top: 2rem;
   }
 }
 
@@ -31,5 +25,4 @@
    min-height: 110px;
    display: flex;
    align-items: center;
-   margin-top: 2rem;
  }

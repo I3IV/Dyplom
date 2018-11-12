@@ -9,8 +9,6 @@ import './main-page.css';
 const MainPage = (props) => {
 
   const navItems = [
-    {label: 'Join us', link: '/'},
-    {label: 'Contact', link: '/'},
     {label: 'Login', link: '/login'},
     {label: 'Registration', link: '/registration'}
   ];

@@ -1,0 +1,85 @@
+.account_page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+.account_page .logged-username {
+  font-size: 1.3rem;
+}
+.account_page .account_settings {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 60%;
+}
+.account_page .account-settings {
+  width: 25%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  margin-right: 4%;
+}
+
+.account_page .account-setting {
+  width: 75%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.account_page .footer {
+  align-self: flex-end;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: black;
+  z-index: 2;
+  min-height: 1.3rem;
+}
+.account_page .footer .button {
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.account_page .footer .button:hover {
+  color: black;
+  cursor: pointer;
+  background-color: #efefef;
+  transition: .2s ease;
+}
+.account_page .footer span {
+  min-width: 4.36rem;
+}
+
+
+@media(max-width: 560px) {
+  .account_page .footer {
+    height: 2.5rem !important;
+  }
+  .account_page .footer .button {
+    margin-left: 0rem !important;
+  }
+  .account_page .footer .button span {
+    font-size: 0.7rem;
+  }
+}
+
+@media(max-width: 400px) {
+  .account_page .footer{
+    margin-top: 2rem;
+  }
+}

@@ -27,7 +27,7 @@
   }
   .main_page .item {
     width: 50rem !important;
-    height: 18rem !important;
+    height: 16rem !important;
   }
 }
 
@@ -64,8 +64,8 @@
 }
 @media(max-width: 400px) {
   .main_page .item {
-    width: 22.2rem !important;
-    height: 17rem !important;
+    width: 99% !important;
+    height: 13rem !important;
   }
   .main_page .choice {
     margin-top: 4rem !important;
@@ -171,23 +171,28 @@
   min-width: 4.36rem;
 }
 
-@media(max-height: 950px){
-  .main_page .item {
-    height: 15rem !important;
-  }
+.main_page .logged-username {
+  font-size: 1.3rem;
 }
+/* @media (max-height: 950px) and (min-width: 1116px) {
+  .main_page .item {
+    height: 25rem !important;
+  }
+} */
+
+
 @media(max-height: 830px){
   .main_page .item {
-    height: 12rem !important;
+    height: 20rem !important;
   }
 }
 @media(max-height: 690px){
   .main_page .item {
-    height: 10rem !important;
+    height: 15rem !important;
   }
 }
 @media(max-height: 590px){
   .main_page .item {
-    height: 8rem !important;
+    height: 12rem !important;
   }
 }

@@ -8,11 +8,9 @@ import muiTheme from './muiTheme';
 import MainPage from '../pages/main-page';
 import RegistrationPage from '../pages/registration-page';
 import LoginPage from '../pages/login-page';
+import AccountPage from '../pages/account-page';
 
 export default class App extends Component {
-  state={
-    content: 'main'
-  };
 
   render() {
     return (
@@ -22,6 +20,7 @@ export default class App extends Component {
             <Route path="/" component={MainPage} exact />
             <Route path="/login" component={LoginPage} />
             <Route path="/registration" component={RegistrationPage} />
+            <Route path="/account" component={AccountPage} />
           </React.Fragment>
         </Router>
       </MuiThemeProvider>

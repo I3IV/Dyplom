@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
 import Header from '../../shared-components/header';
-import Choice from './choice';
+import AccountSetting from './account-setting';
+import AccountSettings from './account-settings';
 import Footer from './footer';
 
-import './main-page.css';
+import './account-page.css';
 
-export default class MainPage extends Component {
+export default class AccountPage extends Component {
 
   state = {
     isLoggedIn: true
@@ -32,11 +33,6 @@ export default class MainPage extends Component {
       username: 'illia.sydun'
     };
 
-    const choiceItems = [
-      {label: 'Restaurants', classN: 'restaurant'},
-      {label: 'Food', classN: 'food'}
-    ];
-
     const footerItems = [
       {label: 'About us'},
       {label: 'FAQ'},
@@ -47,12 +43,15 @@ export default class MainPage extends Component {
 
     let nav = this.state.isLoggedIn ? navLoggedIn : navItems;
     return (
-      <div className="main_page">
+      <div className="account_page">
         <Header
           navItems={ nav }
           handleClose={this.handleClose}
           loggedIn={loggedIn} />
-          <Choice choiceItems = { choiceItems }/>
+        <div className="account_settings">
+          <AccountSettings />
+          <AccountSetting />
+        </div>
         <Footer footerItems={ footerItems }/>
       </div>
     );

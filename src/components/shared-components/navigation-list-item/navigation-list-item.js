@@ -35,7 +35,7 @@ export default class NavigationListItem extends Component {
             color="primary"
 
           >
-            <MoreVertIcon fontSize="medium" />
+            <MoreVertIcon />
           </IconButton>
         <Menu
           id="simple-menu"

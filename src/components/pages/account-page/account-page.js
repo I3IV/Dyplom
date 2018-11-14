@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 
 import Header from '../../shared-components/header';
-import AccountSetting from './account-setting';
+import AccountOptions from './account-options';
 import AccountSettings from './account-settings';
+import AccountStatistics from './account-statistics';
+import AccountPaymentMethod from './account-payment-method';
+import AccountDeliveryOptions from './account-delivery-options';
 import Footer from './footer';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import './account-page.css';
 
@@ -49,8 +53,11 @@ export default class AccountPage extends Component {
           handleClose={this.handleClose}
           loggedIn={loggedIn} />
         <div className="account_settings">
-          <AccountSettings />
-          <AccountSetting />
+          <AccountOptions />
+            <Route path="/account/settings" component={AccountSettings}/>
+            <Route path="/account/payment-method" component={AccountPaymentMethod}/>
+            <Route path="/account/statistics" component={AccountStatistics}/>
+            <Route path="/account/delivery-options" component={AccountDeliveryOptions}/>
         </div>
         <Footer footerItems={ footerItems }/>
       </div>

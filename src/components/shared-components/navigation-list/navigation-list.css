@@ -1,0 +1,90 @@
+
+@media(max-width: 850px) {
+  .navigation-list ul {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .navigation-list li {
+    width: 10rem !important;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+  }
+  .navigation-list li .button {
+    width: 10rem !important;
+    min-width: 10rem;
+  }
+}
+
+@media(max-width: 744px) {
+  .navigation-list {
+    margin-left: 0 !important;
+  }
+}
+
+@media(max-width: 480px) {
+  .navigation-list ul {
+    flex-grow: 1;
+    flex-wrap: nowrap;
+  }
+  .navigation-list {
+    height: auto !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-top: 0;
+  }
+  .navigation-list li {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+  .navigation-list li a {
+    width: 100%;
+  }
+  .navigation-list li .button {
+    width: 98% !important;
+    min-width: 5.5rem;
+    margin-right: 0;
+    padding: 0;
+    font-size: 0.7rem; }
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 4rem;
+  margin-left: 2rem;
+  z-index: 1;
+}
+
+.navigation-list ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-list li {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list .button{
+  height: 2.7rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border-radius: 0.3rem;
+  margin-right: 1rem;
+  border: 0.05rem solid black;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.navigation-list .button span{
+  min-width: 4rem;
+}
+
+.navigation-list .button:hover {
+  color: black;
+  background-color: white;
+  transition: .2s ease; }

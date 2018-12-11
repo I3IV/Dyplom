@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "restaurant",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +26,19 @@
     "react-scripts": "^2.1.1",
     "react-select": "^2.1.1",
     "react_google_calendar": "^2.1.0"
+=======
+  "name": "diplom-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.4.0",
+    "@material-ui/icons": "^3.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
+>>>>>>> Illia
   },
   "scripts": {
     "start": "react-scripts start",

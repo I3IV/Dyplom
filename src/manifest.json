@@ -1,19 +1,14 @@
+
 {
-<<<<<<< HEAD
-  "short_name": "React App",
-  "name": "Create React App Sample",
-=======
   "short_name": "I3IV",
   "name": "Minimalist Baker",
->>>>>>> Illia
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-<<<<<<< HEAD
-=======
     },
+
     {
       "src": "icon.png",
       "sizes": "192x192",
@@ -23,16 +18,12 @@
       "src": "icon.png",
       "sizes": "512x512",
       "type": "image/png"
->>>>>>> Illia
     }
+
   ],
   "start_url": ".",
   "display": "standalone",
-<<<<<<< HEAD
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-=======
   "theme_color": "#432312",
-  "background_color": "#ab43ac"
->>>>>>> Illia
+  "background_color": "#ab43ac",
+  "orientation": "landscape"
 }

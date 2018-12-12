@@ -22,7 +22,7 @@ export default class AccountOptions extends Component {
               <span>Payment Method</span>
             </MenuItem>
           </Link>
-          <Link to='/account/delivery-options'>
+          <Link to='/scheduler'>
             <MenuItem>
               <span>Delivery Options</span>
             </MenuItem>

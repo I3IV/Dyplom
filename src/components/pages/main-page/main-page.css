@@ -101,7 +101,9 @@
   font-size: 3.5rem;
   background-color: rgba(10, 10, 10, 0.6);
 }
-
+.main_page a{
+  color: white;
+}
 .main_page .item-label {
   position: absolute;
   height: 5rem;

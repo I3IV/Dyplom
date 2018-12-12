@@ -1,17 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
 
-import App from 'components/app';
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
-
-serviceWorker.unregister();
-=======
 import App from './components/app';
 import * as serviceWorker from './serviceWorker';
 
@@ -24,4 +13,3 @@ import * as serviceWorker from './serviceWorker';
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
 ReactDOM.render(<App />, document.getElementById('root'));
->>>>>>> Illia

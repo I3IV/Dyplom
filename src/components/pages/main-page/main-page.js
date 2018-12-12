@@ -33,8 +33,8 @@ export default class MainPage extends Component {
     };
 
     const choiceItems = [
-      {label: 'Restaurants', classN: 'restaurant'},
-      {label: 'Food', classN: 'food'}
+      {label: 'Restaurants', classN: 'restaurant',link: 'restaurants'},
+      {label: 'Food', classN: 'food', link: 'dishes'}
     ];
 
     const footerItems = [

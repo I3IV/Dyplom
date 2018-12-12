@@ -57,7 +57,7 @@ export default class AccountPage extends Component {
             <Route path="/account/settings" component={AccountSettings}/>
             <Route path="/account/payment-method" component={AccountPaymentMethod}/>
             <Route path="/account/statistics" component={AccountStatistics}/>
-            <Route path="/account/delivery-options" component={AccountDeliveryOptions}/>
+            <Route path="/account/scheduler" component={AccountDeliveryOptions}/>
         </div>
         <Footer footerItems={ footerItems }/>
       </div>

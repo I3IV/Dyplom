@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@feathersjs/client": "^3.7.7",
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/socketio": "^3.2.9",
+    "@feathersjs/socketio-client": "^1.2.1",
     "@material-ui/core": "^3.6.1",
     "@material-ui/icons": "^3.0.1",
     "@material-ui/lab": "^3.0.0-alpha.24",
+    "axios": "^0.18.0",
     "dns": "^0.2.2",
     "material-ui": "^0.20.2",
     "material-ui-datetimepicker": "^1.0.7",
@@ -24,7 +29,9 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.1",
     "react-select": "^2.1.1",
-    "react_google_calendar": "^2.1.0"
+    "react_google_calendar": "^2.1.0",
+    "socket.io-client": "^2.2.0",
+    "uws": "^10.148.1"
   },
   "scripts": {
     "start": "react-scripts start",

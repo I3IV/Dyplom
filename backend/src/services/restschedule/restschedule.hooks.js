@@ -1,4 +1,4 @@
-const populateRestaurants = require('../../hooks/populate-restaurants');
+
 
 module.exports = {
   before: {
@@ -13,8 +13,8 @@ module.exports = {
 
   after: {
     all: [],
-    find: [populateRestaurants()],
-    get: [populateRestaurants()],
+    find: [],
+    get: [],
     create: [],
     update: [],
     patch: [],

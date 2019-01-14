@@ -1,22 +1,42 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import Paper from '@material-ui/core/Paper';
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import '../login-page.css';
-
+import Paper from "@material-ui/core/Paper";
+import Button from "@material-ui/core/Button";
+import TextField from "@material-ui/core/TextField";
+import Dialog from "@material-ui/core/Dialog";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import "../login-page.css";
+import { Redirect } from "react-router-dom";
+import client from "feathers/client";
 
 export default class LoginForm extends Component {
-
   state = {
     open: false,
+    isLoggedIn: false
   };
+  login() {
+    const { email, password } = this.state;
+
+    return client
+      .authenticate({
+        strategy: "local",
+        email,
+        password
+      })
+      .then(() => {
+        this.setState({ error: null, isLoggedIn: true });
+      })
+      .catch(error => {
+        this.setState({ error });
+      });
+  }
+  updateField(name, ev) {
+    this.setState({ [name]: ev.target.value });
+  }
 
   handleClickOpen = () => {
     this.setState({ open: true });
@@ -26,43 +46,49 @@ export default class LoginForm extends Component {
     this.setState({ open: false });
   };
   render() {
-    return(
+    if (this.state.isLoggedIn) return <Redirect to="/" />;
+    return (
       <div className="form">
         <Paper className="paper-form" elevation={15}>
           <span className="label">Log in</span>
+          <p>{this.state.error && this.state.error.message}</p>
           <TextField
-          className="input"
-          label="Email"
-          margin="normal"
-          variant="outlined"
-          value="illia.sydun@gmail.com"
-        />
-        <TextField
+            className="input"
+            label="Email"
+            margin="normal"
+            variant="outlined"
+            placeholder="illia.sydun@gmail.com"
+            onChange={ev => this.updateField("email", ev)}
+          />
+          <TextField
             className="input"
             label="Password"
             margin="normal"
             variant="outlined"
             type="password"
-            value="passwordpass"
+            placeholder="passwordpass"
+            onChange={ev => this.updateField("password", ev)}
           />
           <div className="buttons">
-            <Button className="button">Log in</Button>
-            <a href="localhost:3000"
-               onClick={this.handleClickOpen}>
-              Forgot your password?</a>
+            <Button className="button" onClick={() => this.login()}>
+              Log in
+            </Button>
+            <a href="localhost:3000" onClick={this.handleClickOpen}>
+              Forgot your password?
+            </a>
             <Link to="/registration">Don't have one?</Link>
           </div>
 
           <Dialog
             open={this.state.open}
             onClose={this.handleClose}
-            aria-labelledby="form-dialog-title">
-
+            aria-labelledby="form-dialog-title"
+          >
             <DialogTitle id="form-dialog-title">Reset password</DialogTitle>
             <DialogContent>
               <DialogContentText>
-                To reset your password, please enter your email address here. We will send
-                you confirmation link.
+                To reset your password, please enter your email address here. We
+                will send you confirmation link.
               </DialogContentText>
               <TextField
                 autoFocus
@@ -74,17 +100,14 @@ export default class LoginForm extends Component {
               />
             </DialogContent>
             <DialogActions>
-              <Button className="button"
-                      onClick={this.handleClose}>
+              <Button className="button" onClick={this.handleClose}>
                 Cancel
               </Button>
-              <Button className="button"
-                      onClick={this.handleClose}>
+              <Button className="button" onClick={this.handleClose}>
                 Confirm
               </Button>
             </DialogActions>
-        </Dialog>
-
+          </Dialog>
         </Paper>
       </div>
     );

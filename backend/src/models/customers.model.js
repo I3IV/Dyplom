@@ -47,10 +47,17 @@ module.exports = function(app) {
       },
       BlockedUser: {
         type: DataTypes.INTEGER(4),
-        allowNull: false
+        allowNull: false,
+        defaultValue: false
       }
     },
     {
+      indexes: [
+        {
+          unique: true,
+          fields: ['CustEmail']
+        }
+      ],
       tableName: 'customers',
       hooks: {
         beforeCount(options) {

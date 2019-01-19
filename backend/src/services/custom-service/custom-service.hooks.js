@@ -1,19 +1,9 @@
-const includeAssociations = require('../../hooks/include-associations');
-const includeSchedule = require('../../hooks/include-schedule');
+
 
 module.exports = {
   before: {
     all: [],
-    find: [
-      includeAssociations({
-        models: [
-          {
-            model: 'restschedule',
-            as: 'DaySchedules'
-          }
-        ]
-      })
-    ],
+    find: [],
     get: [],
     create: [],
     update: [],
@@ -24,7 +14,7 @@ module.exports = {
   after: {
     all: [],
     find: [],
-    get: [includeSchedule()],
+    get: [],
     create: [],
     update: [],
     patch: [],

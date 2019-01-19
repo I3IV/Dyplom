@@ -36,7 +36,6 @@ class RegistrationForm extends Component {
         CustName,
         CustSurname,
         CustPhone,
-        BlockedUser: false,
         City_id: 1
       })
       .then(() => this.login())
@@ -48,16 +47,22 @@ class RegistrationForm extends Component {
     this.setState({ [name]: ev.target.value });
   }
   render() {
+    this.state.error && console.log("ERROR", this.state.error.errors);
+
     if (this.state.isLoggedIn) return <Redirect to="/" />;
     return (
       <div className="form">
         <Paper className="paper-form" elevation={15}>
           <span className="label">Registration</span>
-          <p>{this.state.error && "Something wrong"}</p>
+          <p>{this.state.error && `Something wrong: ${this.state.error}`}</p>
           <div className="row">
             <TextField
               className="input"
               label="Name"
+              error={
+                this.state.error &&
+                this.state.error.errors.CustName !== undefined
+              }
               margin="normal"
               variant="outlined"
               placeholder="Illia"

@@ -18,6 +18,7 @@ const channels = require('./channels');
 const sequelize = require('./sequelize');
 
 const authentication = require('./authentication');
+const validator = require('feathers-hooks-validator');
 
 const app = express(feathers());
 
@@ -52,5 +53,7 @@ app.use(express.notFound());
 app.use(express.errorHandler({ logger }));
 
 app.hooks(appHooks);
+// Set up after set up hooks
+app.configure(validator());
 
 module.exports = app;

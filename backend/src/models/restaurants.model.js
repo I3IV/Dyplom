@@ -46,8 +46,10 @@ module.exports = function(app) {
 
   // eslint-disable-next-line no-unused-vars
   restaurants.associate = function(models) {
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
+    restaurants.hasMany(models.restschedule, {
+      as: 'DaySchedules',
+      foreignKey: 'Restaurant_id'
+    });
   };
 
   return restaurants;

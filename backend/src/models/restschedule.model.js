@@ -23,7 +23,7 @@ module.exports = function(app) {
         }
       },
       Day: {
-        type: DataTypes.ENUM('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'),
+        type: DataTypes.TINYINT(1),
         allowNull: false
       },
       Opened: {
@@ -40,10 +40,16 @@ module.exports = function(app) {
       }
     },
     {
+      scopes: {
+        today: {
+          where: {
+            Day: new Date().getDay()
+          }
+        }
+      },
       tableName: 'restschedule'
     }
   );
-
   // eslint-disable-next-line no-unused-vars
   restschedule.associate = function(models) {
     // Define associations here

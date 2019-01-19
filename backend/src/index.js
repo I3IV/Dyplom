@@ -16,10 +16,10 @@ server.on('listening', () =>
   )
 );
 
-console.log('HERE HERE');
-
 async function createAndList() {
-  const messages = await app.service('restaurants').get(1);
-  console.log('restaurats', messages.RestaurantName);
+  const restschedule = await app.service('restschedule').find();
+  console.log('restschedule', restschedule);
+  const restaurants = await app.service('restaurants').get(1);
+  console.log('restaurants', restaurants);
 }
 createAndList();

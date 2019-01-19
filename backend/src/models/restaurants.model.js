@@ -40,14 +40,22 @@ module.exports = function(app) {
       }
     },
     {
-      tableName: 'restaurants'
+      tableName: 'restaurants',
+      hooks: {
+        beforeCount(options) {
+          options.raw = true;
+        }
+      }
     }
   );
 
   // eslint-disable-next-line no-unused-vars
   restaurants.associate = function(models) {
+    restaurants.belongsTo(models.addresses, {
+      foreignKey: 'Address_id'
+    });
     restaurants.hasMany(models.restschedule, {
-      as: 'DaySchedules',
+      as: 'schedule',
       foreignKey: 'Restaurant_id'
     });
   };

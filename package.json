@@ -12,6 +12,7 @@
     "@material-ui/lab": "^3.0.0-alpha.24",
     "axios": "^0.18.0",
     "dns": "^0.2.2",
+    "feathers-findone": "^1.0.2",
     "material-ui": "^0.20.2",
     "material-ui-datetimepicker": "^1.0.7",
     "moment": "^2.22.2",

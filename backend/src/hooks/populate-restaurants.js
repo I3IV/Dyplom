@@ -16,13 +16,12 @@ module.exports = function(options = {}) {
       restaurants.map(async r => {
         // Also pass the original `params` to the service call
         // so that it has the same information available (e.g. who is requesting it)
-        const schedule = await app
-          .service('restschedule')
-          .find({ query: { Restaurant_id: r.id } });
-        if (schedule.data.length !== 0) {
-          r.Opened = schedule.data[0].Opened.substring(0, 5);
-          r.Closed = schedule.data[0].Closed.substring(0, 5);
-        }
+        const address = await app
+          .service('addresses')
+          .get({ query: { Restaurant_id: r.id } });
+        r.Address = `${address.StreetName} ${address.StreetNumber} ${
+          address.ZipCode
+        }`;
       })
     );
     // Best practice: hooks should always return the context

@@ -17,9 +17,14 @@ server.on('listening', () =>
 );
 
 async function createAndList() {
-  const restschedule = await app.service('restschedule').find();
-  console.log('restschedule', restschedule);
-  const restaurants = await app.service('restaurants').get(1);
-  console.log('restaurants', restaurants);
+  // await app
+  //   .service('restaurants')
+  //   .findOne()
+  //   .then(res => {
+  //     console.log('RESULT', res);
+  //   })
+  //   .catch(err => {
+  //     console.log('ERROR', err);
+  //   });
 }
 createAndList();

@@ -1,7 +1,4 @@
 const includeAssociations = require('../../hooks/include-associations');
-const includeSchedule = require('../../hooks/include-schedule');
-
-const scheduleFmt = require('../../hooks/schedule-fmt');
 
 module.exports = {
   before: {
@@ -10,11 +7,10 @@ module.exports = {
       includeAssociations({
         models: [
           {
-            as: 'schedule',
-            model: 'restschedule'
+            model: 'addresses'
           },
           {
-            model: 'addresses'
+            model: 'countries'
           }
         ]
       })
@@ -28,8 +24,8 @@ module.exports = {
 
   after: {
     all: [],
-    find: [scheduleFmt()],
-    get: [includeSchedule()],
+    find: [],
+    get: [],
     create: [],
     update: [],
     patch: [],

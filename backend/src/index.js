@@ -16,15 +16,15 @@ server.on('listening', () =>
   )
 );
 
-async function createAndList() {
-  // await app
-  //   .service('restaurants')
-  //   .findOne()
-  //   .then(res => {
-  //     console.log('RESULT', res);
+const test = () => {
+  // app
+  //   .service('rest-dish-sizes')
+  //   .find({
+  //     sequelize: { group: 'RestaurantDish_id' }
   //   })
-  //   .catch(err => {
-  //     console.log('ERROR', err);
+  //   .then(res => {
+  //     console.log('SHOWING RESULT', res);
   //   });
-}
-createAndList();
+};
+
+test();

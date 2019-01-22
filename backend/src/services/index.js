@@ -6,6 +6,12 @@ const customService = require('./custom-service/custom-service.service.js');
 const addresses = require('./addresses/addresses.service.js');
 const cities = require('./cities/cities.service.js');
 const countries = require('./countries/countries.service.js');
+const menu = require('./menu/menu.service.js');
+const menuCategories = require('./menu-categories/menu-categories.service.js');
+const restaurantDishes = require('./restaurant-dishes/restaurant-dishes.service.js');
+const restDishSizes = require('./rest-dish-sizes/rest-dish-sizes.service.js');
+const dishSizes = require('./dish-sizes/dish-sizes.service.js');
+const dishesInMenu = require('./dishes-in-menu/dishes-in-menu.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(restaurantdb);
@@ -16,4 +22,10 @@ module.exports = function(app) {
   app.configure(addresses);
   app.configure(cities);
   app.configure(countries);
+  app.configure(menu);
+  app.configure(menuCategories);
+  app.configure(restaurantDishes);
+  app.configure(restDishSizes);
+  app.configure(dishSizes);
+  app.configure(dishesInMenu);
 };

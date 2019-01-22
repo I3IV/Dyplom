@@ -1,7 +1,5 @@
 const includeAssociations = require('../../hooks/include-associations');
-
-const scheduleFmt = require('../../hooks/schedule-fmt');
-
+const populateRestDish = require('../../hooks/populate-rest-dish');
 module.exports = {
   before: {
     all: [],
@@ -9,11 +7,7 @@ module.exports = {
       includeAssociations({
         models: [
           {
-            as: 'schedule',
-            model: 'restschedule'
-          },
-          {
-            model: 'addresses'
+            model: 'dish-sizes'
           }
         ]
       })
@@ -27,7 +21,7 @@ module.exports = {
 
   after: {
     all: [],
-    find: [scheduleFmt()],
+    find: [populateRestDish()],
     get: [],
     create: [],
     update: [],

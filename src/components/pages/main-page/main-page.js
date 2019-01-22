@@ -24,8 +24,8 @@ export default class MainPage extends Component {
       .then(user => {
         this.setState({ user });
       })
-      .catch(function(error) {
-        console.error("Error authenticating!", error);
+      .catch(error => {
+        console.info("Error authenticating!", error);
       });
   }
 

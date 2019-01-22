@@ -26,7 +26,7 @@ module.exports = function(options = {}) {
           DayName: dayNames[weekDay.Day]
         }))
       );
-    console.log('SCHEDULE ON SERVER', schedule);
+    //  console.log('SCHEDULE ON SERVER', schedule);
     restaurant.schedule = schedule;
     return context;
   };

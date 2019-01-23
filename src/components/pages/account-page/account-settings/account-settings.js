@@ -4,12 +4,13 @@ import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import '../account-page.css';
+import Spinner from "components/spinner";
 
 
 export default class AccountSettings extends Component {
   state={
     save: false,
-    disabled: true
+    disabled: true,
   };
 
   saveButton = () => {
@@ -21,7 +22,9 @@ export default class AccountSettings extends Component {
   }
   render() {
     const saveButton = this.state.save ? 'Save' : 'Edit';
-
+    if(!this.props.user){
+      return <Spinner/>
+    }
     return(
       <Paper className="account-setting" elevation={15}>
         <div className="setting-form">
@@ -32,7 +35,7 @@ export default class AccountSettings extends Component {
             margin="normal"
             variant="outlined"
             type="text"
-            defaultValue="Illia"
+            defaultValue={this.props.user.CustName}
           />
           <TextField
             disabled={this.state.disabled}
@@ -41,7 +44,7 @@ export default class AccountSettings extends Component {
             margin="normal"
             variant="outlined"
             type="text"
-            defaultValue="Sydun"
+            defaultValue={this.props.user.CustSurname}
           />
           <TextField
             disabled={this.state.disabled}
@@ -50,7 +53,7 @@ export default class AccountSettings extends Component {
             margin="normal"
             variant="outlined"
             type="email"
-            defaultValue="illia.sydun@gmail.com"
+            defaultValue={this.props.user.email}
           />
           <TextField
             disabled={this.state.disabled}
@@ -59,7 +62,7 @@ export default class AccountSettings extends Component {
             margin="normal"
             variant="outlined"
             type="text"
-            defaultValue="733 423 688"
+            defaultValue={this.props.user.CustPhone}
           />
           <TextField
             disabled={this.state.disabled}

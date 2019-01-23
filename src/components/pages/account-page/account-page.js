@@ -10,30 +10,11 @@ import Footer from "./footer";
 import { Route } from "react-router-dom";
 
 import "./account-page.css";
+import client from "feathers/client";
+import Spinner from "components/spinner";
 
 export default class AccountPage extends Component {
-  state = {
-    isLoggedIn: true
-  };
-
-  handleClose = () => {
-    const oldState = this.state.isLoggedIn;
-    const newState = !oldState;
-    return this.setState({ isLoggedIn: newState });
-  };
-
   render() {
-    const navItems = [
-      { label: "Login", link: "/login" },
-      { label: "Registration", link: "/registration" }
-    ];
-
-    const navLoggedIn = [{ label: "Account", link: "/account" }];
-
-    const loggedIn = {
-      username: "illia.sydun"
-    };
-
     const footerItems = [
       { label: "About us" },
       { label: "FAQ" },
@@ -42,17 +23,15 @@ export default class AccountPage extends Component {
       { label: "Catering" }
     ];
 
-    let nav = this.state.isLoggedIn ? navLoggedIn : navItems;
     return (
       <div className="account_page">
         <Header
-          navItems={nav}
-          handleClose={this.handleClose}
-          loggedIn={loggedIn}
+          user={this.props.user}
+          handleClose={this.props.handleClose}
         />
         <div className="account_settings">
           <AccountOptions />
-          <Route path="/account/settings" component={AccountSettings} />
+          <Route path="/account/settings" render={() => <AccountSettings user={this.props.user}/>} />
           <Route
             path="/account/payment-method"
             component={AccountPaymentMethod}

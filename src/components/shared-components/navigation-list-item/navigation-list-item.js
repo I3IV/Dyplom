@@ -21,12 +21,12 @@ export default class NavigationListItem extends Component {
 
   render() {
     const { anchorEl } = this.state;
-    const { item, handleClose, loggedIn } = this.props;
+    const { item, handleClose, user } = this.props;
 
     if (item.label === "Account") {
       return (
         <li>
-          <span className="logged-username">{loggedIn.username}</span>
+          <span className="logged-username">{user.CustName}</span>
           <IconButton
             aria-label="More"
             aria-owns={anchorEl ? "long-menu" : undefined}

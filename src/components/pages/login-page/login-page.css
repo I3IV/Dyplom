@@ -1,4 +1,4 @@
-.login_page{
+.login_page {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -52,21 +52,21 @@
 .login_page .input{
   width: 70%;
   color: black !important;
-  height: 3.1rem;
 }
 
-.login_page .buttons{
+
+.login_page .buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 1.5rem;
-  width: 70%;
 }
+
 .login_page .buttons a{
   margin-top: .7rem;
   color: black;
 }
-.login_page .paper-form .button{
+.login_page .paper-form .button {
   height: 2.55rem;
   color: white;
   padding: 0.5rem 1rem;

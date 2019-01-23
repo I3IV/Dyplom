@@ -57,7 +57,7 @@ export default class LoginForm extends Component {
             label="Email"
             margin="normal"
             variant="outlined"
-            placeholder="illia.sydun@gmail.com"
+            placeholder="example@gmail.com"
             onChange={ev => this.updateField("email", ev)}
           />
           <TextField
@@ -78,7 +78,6 @@ export default class LoginForm extends Component {
             </a>
             <Link to="/registration">Don't have one?</Link>
           </div>
-
           <Dialog
             open={this.state.open}
             onClose={this.handleClose}

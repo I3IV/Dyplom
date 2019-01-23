@@ -78,7 +78,7 @@
 .registration_page .input{
   width: 49%;
   color: black !important;
-  height: 3.1rem;
+  
   min-width: 12rem !important;
   flex-grow: 1;
   margin-left: 0.1rem;

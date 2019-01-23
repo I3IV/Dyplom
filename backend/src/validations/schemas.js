@@ -1,9 +1,9 @@
 // file /server/validations/schemas
-const Joi = require('joi');
+const Joi = require("joi");
 
 const password = Joi.string()
   .trim()
-  .regex(/^[\sa-zA-Z0-9]+$/, 'letters, numbers, spaces')
+  .regex(/^[\sa-zA-Z0-9]+$/, "letters, numbers, spaces")
   .min(8)
   .max(30)
   .required();

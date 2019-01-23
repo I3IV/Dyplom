@@ -12,6 +12,12 @@ const restaurantDishes = require('./restaurant-dishes/restaurant-dishes.service.
 const restDishSizes = require('./rest-dish-sizes/rest-dish-sizes.service.js');
 const dishSizes = require('./dish-sizes/dish-sizes.service.js');
 const dishesInMenu = require('./dishes-in-menu/dishes-in-menu.service.js');
+const scheduleItems = require('./schedule-items/schedule-items.service.js');
+const dishesInScheduleItem = require('./dishes-in-schedule-item/dishes-in-schedule-item.service.js');
+const additionalProductsForItem = require('./additional-products-for-item/additional-products-for-item.service.js');
+const itemStatus = require('./item-status/item-status.service.js');
+const customerDeliveryAddresses = require('./customer-delivery-addresses/customer-delivery-addresses.service.js');
+const products = require('./products/products.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(restaurantdb);
@@ -28,4 +34,10 @@ module.exports = function(app) {
   app.configure(restDishSizes);
   app.configure(dishSizes);
   app.configure(dishesInMenu);
+  app.configure(scheduleItems);
+  app.configure(dishesInScheduleItem);
+  app.configure(additionalProductsForItem);
+  app.configure(itemStatus);
+  app.configure(customerDeliveryAddresses);
+  app.configure(products);
 };

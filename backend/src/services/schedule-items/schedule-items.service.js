@@ -1,4 +1,4 @@
-// Initializes the `ScheduleItems` service on path `/schedule-items`
+// Initializes the `ScheduleItems` service on path `/schedule-items-page`
 const createService = require('feathers-sequelize');
 const createModel = require('../../models/schedule-items.model');
 const hooks = require('./schedule-items.hooks');
@@ -13,10 +13,10 @@ module.exports = function (app) {
   };
 
   // Initialize our service with any options it requires
-  app.use('/schedule-items', createService(options));
+  app.use('/schedule-items-page', createService(options));
 
   // Get our initialized service so that we can register hooks
-  const service = app.service('schedule-items');
+  const service = app.service('schedule-items-page');
 
   service.hooks(hooks);
 };

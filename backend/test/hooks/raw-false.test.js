@@ -1,27 +1,27 @@
-const assert = require('assert');
-const feathers = require('@feathersjs/feathers');
-const rawFalse = require('../../src/hooks/raw-false');
+const assert = require("assert");
+const feathers = require("@feathersjs/feathers");
+const rawFalse = require("../../src/hooks/raw-false");
 
-describe('\'rawFalse\' hook', () => {
+describe("'rawFalse' hook", () => {
   let app;
 
   beforeEach(() => {
     app = feathers();
 
-    app.use('/dummy', {
+    app.use("/dummy", {
       async get(id) {
         return { id };
       }
     });
 
-    app.service('dummy').hooks({
+    app.service("dummy").hooks({
       before: rawFalse()
     });
   });
 
-  it('runs the hook', async () => {
-    const result = await app.service('dummy').get('test');
-    
-    assert.deepEqual(result, { id: 'test' });
+  it("runs the hook", async () => {
+    const result = await app.service("dummy").get("test");
+
+    assert.deepEqual(result, { id: "test" });
   });
 });

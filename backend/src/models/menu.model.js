@@ -1,31 +1,31 @@
 // See http://docs.sequelizejs.com/en/latest/docs/models-definition/
 // for more of what you can do here.
-const Sequelize = require('sequelize');
+const Sequelize = require("sequelize");
 const DataTypes = Sequelize.DataTypes;
 
 module.exports = function(app) {
-  const sequelizeClient = app.get('sequelizeClient');
+  const sequelizeClient = app.get("sequelizeClient");
   const menu = sequelizeClient.define(
-    'menu',
+    "menu",
     {
       id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         primaryKey: true,
         autoIncrement: true,
-        field: 'Menu_id'
+        field: "Menu_id"
       },
       MenuName: {
         type: DataTypes.STRING(30),
         allowNull: true,
-        defaultValue: 'Main'
+        defaultValue: "Main"
       },
       Restaurant_id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         references: {
-          model: 'restaurants',
-          key: 'Restaurant_id'
+          model: "restaurants",
+          key: "Restaurant_id"
         }
       },
       StartMenuDate: {
@@ -38,7 +38,7 @@ module.exports = function(app) {
       }
     },
     {
-      tableName: 'menu',
+      tableName: "menu",
       hooks: {
         beforeCount(options) {
           options.raw = true;
@@ -50,10 +50,10 @@ module.exports = function(app) {
   // eslint-disable-next-line no-unused-vars
   menu.associate = function(models) {
     menu.belongsTo(models.restaurants, {
-      foreignKey: 'Restaurant_id'
+      foreignKey: "Restaurant_id"
     });
     menu.hasMany(models.menu_categories, {
-      foreignKey: 'Menu_id'
+      foreignKey: "Menu_id"
     });
   };
 

@@ -1,18 +1,18 @@
 // See http://docs.sequelizejs.com/en/latest/docs/models-definition/
 // for more of what you can do here.
-const Sequelize = require('sequelize');
+const Sequelize = require("sequelize");
 const DataTypes = Sequelize.DataTypes;
 
 module.exports = function(app) {
-  const sequelizeClient = app.get('sequelizeClient');
+  const sequelizeClient = app.get("sequelizeClient");
   const itemStatus = sequelizeClient.define(
-    'item_status',
+    "item_status",
     {
       id: {
         type: DataTypes.INTEGER(4),
         allowNull: false,
         primaryKey: true,
-        field: 'ItemStatus_id'
+        field: "ItemStatus_id"
       },
       ItemStatusName: {
         type: DataTypes.STRING(20),
@@ -20,7 +20,7 @@ module.exports = function(app) {
       }
     },
     {
-      tableName: 'itemstatus',
+      tableName: "itemstatus",
       beforeCount(options) {
         options.raw = true;
       }

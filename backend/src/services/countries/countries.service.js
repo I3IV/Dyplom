@@ -1,11 +1,11 @@
 // Initializes the `Countries` service on path `/countries`
-const createService = require('feathers-sequelize');
-const createModel = require('../../models/countries.model');
-const hooks = require('./countries.hooks');
+const createService = require("feathers-sequelize");
+const createModel = require("../../models/countries.model");
+const hooks = require("./countries.hooks");
 
-module.exports = function (app) {
+module.exports = function(app) {
   const Model = createModel(app);
-  const paginate = app.get('paginate');
+  const paginate = app.get("paginate");
 
   const options = {
     Model,
@@ -13,10 +13,10 @@ module.exports = function (app) {
   };
 
   // Initialize our service with any options it requires
-  app.use('/countries', createService(options));
+  app.use("/countries", createService(options));
 
   // Get our initialized service so that we can register hooks
-  const service = app.service('countries');
+  const service = app.service("countries");
 
   service.hooks(hooks);
 };

@@ -1,26 +1,26 @@
 // See http://docs.sequelizejs.com/en/latest/docs/models-definition/
 // for more of what you can do here.
-const Sequelize = require('sequelize');
+const Sequelize = require("sequelize");
 const DataTypes = Sequelize.DataTypes;
 
 module.exports = function(app) {
-  const sequelizeClient = app.get('sequelizeClient');
+  const sequelizeClient = app.get("sequelizeClient");
   const customers = sequelizeClient.define(
-    'customers',
+    "customers",
     {
       id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         primaryKey: true,
         autoIncrement: true,
-        field: 'Cust_id'
+        field: "Cust_id"
       },
       City_id: {
         type: DataTypes.INTEGER(3),
         allowNull: false,
         references: {
-          model: 'cities',
-          key: 'City_id'
+          model: "cities",
+          key: "City_id"
         }
       },
       CustName: {
@@ -34,12 +34,12 @@ module.exports = function(app) {
       email: {
         type: DataTypes.STRING(50),
         allowNull: false,
-        field: 'CustEmail'
+        field: "CustEmail"
       },
       password: {
         type: DataTypes.STRING(128),
         allowNull: false,
-        field: 'CustPassword'
+        field: "CustPassword"
       },
       CustPhone: {
         type: DataTypes.STRING(15),
@@ -55,10 +55,10 @@ module.exports = function(app) {
       indexes: [
         {
           unique: true,
-          fields: ['CustEmail']
+          fields: ["CustEmail"]
         }
       ],
-      tableName: 'customers',
+      tableName: "customers",
       hooks: {
         beforeCount(options) {
           options.raw = true;

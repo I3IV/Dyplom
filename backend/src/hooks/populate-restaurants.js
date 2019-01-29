@@ -9,7 +9,7 @@ module.exports = function(options = {}) {
     // Make sure that we always have a list of messages either by wrapping
     // a single message into an array or by getting the `data` from the `find` method's result
 
-    const restaurants = method === 'find' ? result.data : [result];
+    const restaurants = method === "find" ? result.data : [result];
     // Asynchronously get user object from each message's `userId`
     // and add it to the message
     await Promise.all(
@@ -17,7 +17,7 @@ module.exports = function(options = {}) {
         // Also pass the original `params` to the service call
         // so that it has the same information available (e.g. who is requesting it)
         const address = await app
-          .service('addresses')
+          .service("addresses")
           .get({ query: { Restaurant_id: r.id } });
         r.Address = `${address.StreetName} ${address.StreetNumber} ${
           address.ZipCode

@@ -1,33 +1,33 @@
 // See http://docs.sequelizejs.com/en/latest/docs/models-definition/
 // for more of what you can do here.
-const Sequelize = require('sequelize');
+const Sequelize = require("sequelize");
 const DataTypes = Sequelize.DataTypes;
 
 module.exports = function(app) {
-  const sequelizeClient = app.get('sequelizeClient');
+  const sequelizeClient = app.get("sequelizeClient");
   const restaurants = sequelizeClient.define(
-    'restaurants',
+    "restaurants",
     {
       id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         primaryKey: true,
-        field: 'Restaurant_id'
+        field: "Restaurant_id"
       },
       RestaurantType_id: {
         type: DataTypes.INTEGER(4),
         allowNull: false,
         references: {
-          model: 'restauranttypes',
-          key: 'RestaurantType_id'
+          model: "restauranttypes",
+          key: "RestaurantType_id"
         }
       },
       Address_id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         references: {
-          model: 'addresses',
-          key: 'Address_id'
+          model: "addresses",
+          key: "Address_id"
         }
       },
       RestaurantName: {
@@ -40,7 +40,7 @@ module.exports = function(app) {
       }
     },
     {
-      tableName: 'restaurants',
+      tableName: "restaurants",
       hooks: {
         beforeCount(options) {
           options.raw = true;
@@ -52,11 +52,11 @@ module.exports = function(app) {
   // eslint-disable-next-line no-unused-vars
   restaurants.associate = function(models) {
     restaurants.belongsTo(models.addresses, {
-      foreignKey: 'Address_id'
+      foreignKey: "Address_id"
     });
     restaurants.hasMany(models.restschedule, {
-      as: 'schedule',
-      foreignKey: 'Restaurant_id'
+      as: "schedule",
+      foreignKey: "Restaurant_id"
     });
   };
 

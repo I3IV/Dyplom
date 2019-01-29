@@ -1,4 +1,4 @@
-const Sequelize = require('sequelize');
+const Sequelize = require("sequelize");
 const { Op } = Sequelize;
 const operatorsAliases = {
   $eq: Op.eq,
@@ -38,9 +38,9 @@ const operatorsAliases = {
 };
 
 module.exports = function(app) {
-  const connectionString = app.get('mysql');
+  const connectionString = app.get("mysql");
   const sequelize = new Sequelize(connectionString, {
-    dialect: 'mysql',
+    dialect: "mysql",
     logging: false,
     operatorsAliases,
     define: {
@@ -50,7 +50,7 @@ module.exports = function(app) {
   });
   const oldSetup = app.setup;
 
-  app.set('sequelizeClient', sequelize);
+  app.set("sequelizeClient", sequelize);
 
   app.setup = function(...args) {
     const result = oldSetup.apply(this, args);
@@ -58,7 +58,7 @@ module.exports = function(app) {
     // Set up data relationships
     const models = sequelize.models;
     Object.keys(models).forEach(name => {
-      if ('associate' in models[name]) {
+      if ("associate" in models[name]) {
         models[name].associate(models);
       }
     });

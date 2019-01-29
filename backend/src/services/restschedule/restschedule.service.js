@@ -1,11 +1,11 @@
 // Initializes the `restschedule` service on path `/restschedule`
-const createService = require('feathers-sequelize');
-const createModel = require('../../models/restschedule.model');
-const hooks = require('./restschedule.hooks');
+const createService = require("feathers-sequelize");
+const createModel = require("../../models/restschedule.model");
+const hooks = require("./restschedule.hooks");
 
 module.exports = function(app) {
   const Model = createModel(app);
-  const paginate = app.get('paginate');
+  const paginate = app.get("paginate");
 
   const options = {
     Model,
@@ -13,10 +13,10 @@ module.exports = function(app) {
   };
 
   // Initialize our service with any options it requires
-  app.use('/restschedule', createService(options));
+  app.use("/restschedule", createService(options));
 
   // Get our initialized service so that we can register hooks
-  const service = app.service('restschedule');
+  const service = app.service("restschedule");
 
   service.hooks(hooks);
 };

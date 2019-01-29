@@ -1,4 +1,4 @@
-const includeAssociations = require('../../hooks/include-associations');
+const includeAssociations = require("../../hooks/include-associations");
 
 module.exports = {
   before: {
@@ -7,7 +7,7 @@ module.exports = {
       includeAssociations({
         models: [
           {
-            model: 'menu'
+            model: "menu"
           }
         ]
       })

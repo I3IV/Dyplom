@@ -1,27 +1,27 @@
-const assert = require('assert');
-const feathers = require('@feathersjs/feathers');
-const includeAssociations = require('../../src/hooks/include-associations');
+const assert = require("assert");
+const feathers = require("@feathersjs/feathers");
+const includeAssociations = require("../../src/hooks/include-associations");
 
-describe('\'includeAssociations\' hook', () => {
+describe("'includeAssociations' hook", () => {
   let app;
 
   beforeEach(() => {
     app = feathers();
 
-    app.use('/dummy', {
+    app.use("/dummy", {
       async get(id) {
         return { id };
       }
     });
 
-    app.service('dummy').hooks({
+    app.service("dummy").hooks({
       before: includeAssociations()
     });
   });
 
-  it('runs the hook', async () => {
-    const result = await app.service('dummy').get('test');
-    
-    assert.deepEqual(result, { id: 'test' });
+  it("runs the hook", async () => {
+    const result = await app.service("dummy").get("test");
+
+    assert.deepEqual(result, { id: "test" });
   });
 });

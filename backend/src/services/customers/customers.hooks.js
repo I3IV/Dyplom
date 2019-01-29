@@ -3,7 +3,7 @@ const schemas = require("../../validations/schemas");
 const {
   hashPassword,
   protect
-} = require('@feathersjs/authentication-local').hooks;
+} = require("@feathersjs/authentication-local").hooks;
 const validateSchema = require("feathers-hooks-validate-joi");
 module.exports = {
   before: {

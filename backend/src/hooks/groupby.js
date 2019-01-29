@@ -5,7 +5,7 @@
 module.exports = function(options = {}) {
   return async context => {
     const { params } = context;
-    params.sequelize = { group: 'RestaurantName' };
+    params.sequelize = { group: "RestaurantName" };
     return context;
   };
 };

@@ -10,7 +10,7 @@ module.exports = function(options = {}) {
     const newData = await Promise.all(
       dishes.map(async dish => {
         const restDish = await app
-          .service('rest-dish-sizes')
+          .service("rest-dish-sizes")
           .findOne({
             query: {
               id: dish.RestDishSize_id
@@ -25,7 +25,7 @@ module.exports = function(options = {}) {
 
         const { Name, Description, Size, Restaurant_id } = restDish;
         const RestaurantName = await app
-          .service('restaurants')
+          .service("restaurants")
           .get(Restaurant_id)
           .then(res => res.RestaurantName);
         return {

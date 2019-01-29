@@ -2,28 +2,182 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9534a7-af79-4f61-90e6-c2ffb056c8f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/authentication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/channels.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/channels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/groupby.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/groupby.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/log.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-dish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-restaurants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/middleware/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/additional-products-for-item.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/additional-products-for-item.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/addresses.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/addresses.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/cities.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/cities.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/countries.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/countries.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/customers.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/customers.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/dish-sizes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dish-sizes.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/dishes-in-menu.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dishes-in-menu.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/dishes-in-schedule-item.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dishes-in-schedule-item.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/item-status.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/item-status.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/menu-categories.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/menu-categories.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/menu.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/menu.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/products.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/products.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/rest-dish-sizes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/rest-dish-sizes.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurantdb.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurantdb.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/restschedule.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restschedule.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/addresses/addresses.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/addresses/addresses.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/cities/cities.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/cities/cities.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/cities/cities.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/cities/cities.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/countries/countries.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/countries/countries.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/countries/countries.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/countries/countries.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/services/customers/customers.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customers/customers.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/customers/customers.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customers/customers.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/item-status/item-status.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/item-status/item-status.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/item-status/item-status.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/item-status/item-status.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/menu/menu.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu/menu.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/menu/menu.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu/menu.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/products/products.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/products/products.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/products/products.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/products/products.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurantdb/restaurantdb.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurantdb/restaurantdb.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restschedule/restschedule.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restschedule/restschedule.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/app.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/app.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/add-scope.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/add-scope.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/group-by.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/group-by.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/groupby.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/groupby.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/include-associations.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/include-associations.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/include-schedule.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/include-schedule.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-categories.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-categories.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-dish.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-dish.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-event.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-event.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-rest-dish.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-rest-dish.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-restaurants.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-restaurants.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/raw-false.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/raw-false.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/schedule-fmt.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/schedule-fmt.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/hooks/time-fmt.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/time-fmt.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/additional-products-for-item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/additional-products-for-item.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/addresses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/addresses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/cities.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/cities.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/countries.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/countries.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/custom-service.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/custom-service.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/customer-delivery-addresses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/customer-delivery-addresses.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/customers.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/customers.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/dish-sizes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/dish-sizes.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/dishes-in-menu.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/dishes-in-menu.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/dishes-in-schedule-item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/dishes-in-schedule-item.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/item-status.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/item-status.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/menu-categories.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/menu-categories.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/menu.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/menu.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/products.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/products.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/rest-dish-sizes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/rest-dish-sizes.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/restaurant-dishes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restaurant-dishes.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/restaurantdb.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restaurantdb.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/restaurants.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restaurants.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/restschedule.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restschedule.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/additionalproductsforitem.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/additionalproductsforitem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/additionalproductsfororder.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/additionalproductsfororder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/addresses.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/addresses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/cities.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/cities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/countries.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/countries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/customerdeliveryaddresses.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/customerdeliveryaddresses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/customers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishesinmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishesinmenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishesinpromotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishesinpromotion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishesinscheduleitem.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishesinscheduleitem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishfeedbackphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishfeedbackphotos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishfeedbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishfeedbacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishphotos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishproducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishproducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dishsizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishsizes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/favoriterestaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/favoriterestaurants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/feedbackanswers.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/feedbackanswers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/fooddelivery.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/fooddelivery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/itemstatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/itemstatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/jobpositions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/jobpositions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/menucategories.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/menucategories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/orderdishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/orderdishes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/orderstatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/orderstatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/paymenttypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/paymenttypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/prefcustpaymenttypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/prefcustpaymenttypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/productcategories.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/productcategories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/promotions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/promotions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/reservations.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/reservations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restaurantdishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantdishes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restaurantfeedbackphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantfeedbackphotos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restaurantfeedbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantfeedbacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restaurantphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantphotos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restauranttypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restauranttypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restdishsizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restdishsizes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/restschedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restschedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/scheduleitems.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/scheduleitems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tablesinorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tablesinorder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tablesinreservation.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tablesinreservation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/prettier" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-babylon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-babylon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-glimmer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-glimmer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-graphql.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-graphql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-parse5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-postcss.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-postcss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-typescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/standalone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/standalone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/third-party.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/third-party.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/main-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/main-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +189,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="301" column="25" lean-forward="true" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1562">
+              <caret line="148" column="1" lean-forward="true" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,7 +274,19 @@
       <find>5.6.0</find>
       <find>grid-list-item-dish</find>
       <find>redirec</find>
+      <find>class</find>
+      <find>ExpandMoreIcon</find>
+      <find>panel3</find>
+      <find>updateAddress</find>
+      <find>`</find>
+      <find>setting-form</find>
+      <find>Zip-code</find>
     </findStrings>
+    <replaceStrings>
+      <replace>address3</replace>
+      <replace>address-form</replace>
+      <replace>Zip</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\Studia\React\I3IV\Dyplom\src\node_modules\feathers</dir>
       <dir>D:\Studia\React\I3IV\Dyplom\src\node_modules\components</dir>
@@ -64,8 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/radio-select/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/radio-select/radio-select.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/search-panel/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/select-control/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/spinner/spinner.js" />
@@ -101,7 +335,6 @@
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/header/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/main-page.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-page.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" />
@@ -115,6 +348,9 @@
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" />
         <option value="$PROJECT_DIR$/src/node_modules/app/app.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js" />
       </list>
     </option>
   </component>
@@ -154,17 +390,6 @@
             <path>
               <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,13 +397,6 @@
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
@@ -192,14 +410,7 @@
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,59 +418,19 @@
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="main-page" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-items-page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="registration-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="registration-page" type="462c0819:PsiDirectoryNode" />
-              <item name="registration-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="shared-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="shared-components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="shared-components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation-list-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="shared-components" type="462c0819:PsiDirectoryNode" />
-              <item name="spinner" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-items-page" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-dialog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,21 +439,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/prettier" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:\Studia\React\I3IV\Dyplom\node_modules\eslint" />
-    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.eslint" value="H:\I3IV\Dyplom\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="H:\I3IV\Dyplom\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Studia\React\I3IV\Dyplom\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="H:\I3IV\Dyplom\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -323,31 +496,37 @@
       <workItem from="1548276435585" duration="42974000" />
       <workItem from="1548594195219" duration="88000" />
       <workItem from="1548594297561" duration="396000" />
+      <workItem from="1548795292333" duration="388000" />
+      <workItem from="1548795856955" duration="1791000" />
+      <workItem from="1548797670153" duration="2492000" />
+      <workItem from="1548800499919" duration="1284000" />
+      <workItem from="1548803220771" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47235000" />
+    <option name="totallyTimeSpent" value="53846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2280238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22760801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.2966226" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.7606461" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.14956856" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.46108663" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.028763182" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36720997" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -367,17 +546,6 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="vvi" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -409,57 +577,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/footer/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/footer-item/footer-item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule-days-list/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule-days-list/week-schedule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -631,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -787,6 +894,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="148" column="1" lean-forward="true" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="301" column="25" lean-forward="true" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

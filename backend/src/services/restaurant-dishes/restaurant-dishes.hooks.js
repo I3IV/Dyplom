@@ -1,5 +1,5 @@
-const includeAssociations = require('../../hooks/include-associations');
-const populateRestDish = require('../../hooks/populate-rest-dish');
+const includeAssociations = require("../../hooks/include-associations");
+const populateRestDish = require("../../hooks/populate-rest-dish");
 module.exports = {
   before: {
     all: [],
@@ -7,7 +7,7 @@ module.exports = {
       includeAssociations({
         models: [
           {
-            model: 'dish-sizes'
+            model: "dish-sizes"
           }
         ]
       })

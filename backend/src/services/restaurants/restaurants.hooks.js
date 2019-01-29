@@ -1,6 +1,6 @@
-const includeAssociations = require('../../hooks/include-associations');
+const includeAssociations = require("../../hooks/include-associations");
 
-const scheduleFmt = require('../../hooks/schedule-fmt');
+const scheduleFmt = require("../../hooks/schedule-fmt");
 
 module.exports = {
   before: {
@@ -9,11 +9,11 @@ module.exports = {
       includeAssociations({
         models: [
           {
-            as: 'schedule',
-            model: 'restschedule'
+            as: "schedule",
+            model: "restschedule"
           },
           {
-            model: 'addresses'
+            model: "addresses"
           }
         ]
       })

@@ -42,6 +42,7 @@ module.exports = function(app) {
   const sequelize = new Sequelize(connectionString, {
     dialect: 'mysql',
     logging: false,
+    timezone: '+01:00',
     operatorsAliases,
     define: {
       freezeTableName: true,

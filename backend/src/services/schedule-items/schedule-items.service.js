@@ -13,10 +13,10 @@ module.exports = function (app) {
   };
 
   // Initialize our service with any options it requires
-  app.use('/schedule-items-page', createService(options));
+  app.use('/schedule-items', createService(options));
 
   // Get our initialized service so that we can register hooks
-  const service = app.service('schedule-items-page');
+  const service = app.service('schedule-items');
 
   service.hooks(hooks);
 };

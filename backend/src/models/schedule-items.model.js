@@ -79,6 +79,7 @@ module.exports = function(app) {
       foreignKey: 'Address_id'
     });
     scheduleItems.hasMany(models.additional_products_for_item, {
+      onDelete: 'CASCADE',
       foreignKey: 'ScheduleItem_id'
     });
     scheduleItems.hasMany(models.dishes_in_schedule_item, {

@@ -2,182 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9534a7-af79-4f61-90e6-c2ffb056c8f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/channels.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/channels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/groupby.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/groupby.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-dish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-restaurants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/logger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/middleware/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/additional-products-for-item.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/additional-products-for-item.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/addresses.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/addresses.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/cities.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/cities.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/countries.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/countries.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/customers.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/customers.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/dish-sizes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dish-sizes.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/dishes-in-menu.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dishes-in-menu.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/dishes-in-schedule-item.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dishes-in-schedule-item.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/item-status.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/item-status.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/menu-categories.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/menu-categories.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/menu.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/menu.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/products.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/products.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/rest-dish-sizes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/rest-dish-sizes.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurantdb.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurantdb.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/restschedule.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restschedule.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/sequelize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/additional-products-for-item/additional-products-for-item.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/addresses/addresses.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/addresses/addresses.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/cities/cities.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/cities/cities.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/cities/cities.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/cities/cities.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/countries/countries.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/countries/countries.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/countries/countries.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/countries/countries.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/custom-service/custom-service.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/customers/customers.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customers/customers.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/customers/customers.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customers/customers.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dish-sizes/dish-sizes.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/item-status/item-status.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/item-status/item-status.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/item-status/item-status.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/item-status/item-status.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu-categories/menu-categories.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/menu/menu.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu/menu.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/menu/menu.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/menu/menu.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/products/products.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/products/products.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/products/products.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/products/products.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/rest-dish-sizes/rest-dish-sizes.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurantdb/restaurantdb.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurantdb/restaurantdb.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restschedule/restschedule.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restschedule/restschedule.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/app.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/app.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/add-scope.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/add-scope.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/group-by.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/group-by.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/groupby.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/groupby.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/include-associations.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/include-associations.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/include-schedule.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/include-schedule.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-categories.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-categories.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-dish.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-dish.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-event.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-event.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-rest-dish.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-rest-dish.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/populate-restaurants.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/populate-restaurants.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/raw-false.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/raw-false.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/schedule-fmt.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/schedule-fmt.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/hooks/time-fmt.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/hooks/time-fmt.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/additional-products-for-item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/additional-products-for-item.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/addresses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/addresses.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/cities.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/cities.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/countries.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/countries.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/custom-service.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/custom-service.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/customer-delivery-addresses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/customer-delivery-addresses.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/customers.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/customers.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/dish-sizes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/dish-sizes.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/dishes-in-menu.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/dishes-in-menu.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/dishes-in-schedule-item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/dishes-in-schedule-item.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/item-status.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/item-status.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/menu-categories.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/menu-categories.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/menu.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/menu.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/products.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/products.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/rest-dish-sizes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/rest-dish-sizes.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/restaurant-dishes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restaurant-dishes.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/restaurantdb.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restaurantdb.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/restaurants.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restaurants.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/restschedule.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/restschedule.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/additionalproductsforitem.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/additionalproductsforitem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/additionalproductsfororder.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/additionalproductsfororder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/addresses.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/addresses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cities.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/cities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/countries.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/countries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/customerdeliveryaddresses.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/customerdeliveryaddresses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/customers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishesinmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishesinmenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishesinpromotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishesinpromotion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishesinscheduleitem.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishesinscheduleitem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishfeedbackphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishfeedbackphotos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishfeedbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishfeedbacks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishphotos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishproducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishproducts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dishsizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dishsizes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/favoriterestaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/favoriterestaurants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/feedbackanswers.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/feedbackanswers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/fooddelivery.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/fooddelivery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/itemstatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/itemstatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/jobpositions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/jobpositions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/menucategories.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/menucategories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/orderdishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/orderdishes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/orderstatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/orderstatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/paymenttypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/paymenttypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/prefcustpaymenttypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/prefcustpaymenttypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/productcategories.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/productcategories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/promotions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/promotions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/reservations.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/reservations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restaurantdishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantdishes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restaurantfeedbackphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantfeedbackphotos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restaurantfeedbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantfeedbacks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restaurantphotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurantphotos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restaurants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restauranttypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restauranttypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restdishsizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restdishsizes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/restschedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/restschedule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/scheduleitems.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/scheduleitems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/staff.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tablesinorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tablesinorder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tablesinreservation.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tablesinreservation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/prettier" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-babylon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-babylon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-glimmer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-glimmer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-graphql.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-graphql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-markdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-parse5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-postcss.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-postcss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-typescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/parser-yaml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/standalone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/standalone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/third-party.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/third-party.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-options/account-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-options/account-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -191,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="459">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -203,58 +45,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/header/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="378">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="99" column="28" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state>
+              <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="301" column="25" lean-forward="true" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-options/account-options.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="148" column="1" lean-forward="true" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+            <state relative-caret-position="439">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -270,53 +120,60 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ProductsList</find>
-      <find>5.6.0</find>
-      <find>grid-list-item-dish</find>
-      <find>redirec</find>
-      <find>class</find>
-      <find>ExpandMoreIcon</find>
-      <find>panel3</find>
-      <find>updateAddress</find>
-      <find>`</find>
-      <find>setting-form</find>
-      <find>Zip-code</find>
+      <find>dishadd</find>
+      <find>decreseProperty</find>
+      <find>decreaseProperty</find>
+      <find>upda</find>
+      <find>getDishesByCategoryId</find>
+      <find>query</find>
+      <find>selectedsiz</find>
+      <find>localizer</find>
+      <find>updatedi</find>
+      <find>getDish</find>
+      <find>products</find>
+      <find>did</find>
+      <find>then</find>
+      <find>force</find>
+      <find>appl</find>
+      <find>createDishesInScheduleItem</find>
+      <find>customers</find>
+      <find>select</find>
+      <find>newCustomer</find>
+      <find>Delivery Op</find>
+      <find>button</find>
+      <find>statistics</find>
+      <find>label=&quot;CityName&quot;</find>
+      <find>label=&quot;StreetName&quot;</find>
+      <find>label=&quot;ZipCode&quot;</find>
+      <find>getScheduleItemsByCustId</find>
+      <find>client.get</find>
+      <find>id</find>
+      <find>Delivery</find>
+      <find>isLoggedIn</find>
     </findStrings>
     <replaceStrings>
-      <replace>address3</replace>
-      <replace>address-form</replace>
-      <replace>Zip</replace>
+      <replace>label=&quot;Zip&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Studia\React\I3IV\Dyplom\src\node_modules\feathers</dir>
       <dir>D:\Studia\React\I3IV\Dyplom\src\node_modules\components</dir>
       <dir>D:\Studia\React\I3IV\Dyplom\node_modules</dir>
       <dir>D:\Studia\React\I3IV\Dyplom\src</dir>
+      <dir>D:\Studia\React\I3IV\Dyplom\src\assets</dir>
+      <dir>H:\I3IV\Dyplom</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="vvi" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/search-panel/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/select-control/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/spinner/spinner.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/spinner/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/feathers/client.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-options/account-options.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/footer/footer.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/footer-item/footer-item.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-page.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/choice/choice.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/choice-item/choice-item.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/footer/footer.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/footer-item/footer-item.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-page.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/dish-categories/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule/week-schedule.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule-days-list/index.js" />
@@ -326,15 +183,12 @@
         <option value="$PROJECT_DIR$/node_modules/react-scripts/package.json" />
         <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/dish-categories/dish-categories.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/api/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js" />
         <option value="$PROJECT_DIR$/backend/src/authentication.js" />
         <option value="$PROJECT_DIR$/backend/src/channels.js" />
         <option value="$PROJECT_DIR$/backend/src/services/customers/customers.hooks.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/header/header.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/header/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/main-page/main-page.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-page.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" />
@@ -343,14 +197,34 @@
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/private-route" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/private-route/spinner.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/private-route/private-route.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" />
         <option value="$PROJECT_DIR$/src/node_modules/app/app.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/cities.model.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/restschedule.model.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/shared-components/radio-select/radio-select.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/dishes-in-schedule-item.model.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.hooks.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" />
+        <option value="$PROJECT_DIR$/backend/src/sequelize.js" />
+        <option value="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.hooks.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-options/account-options.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/api/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/shared-components/header/header.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" />
       </list>
     </option>
   </component>
@@ -366,8 +240,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="103" />
+    <option name="y" value="-24" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -422,16 +296,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="schedule-items-page" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule-items-page" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule-dialog" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -439,12 +303,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -455,8 +318,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="H:\I3IV\Dyplom\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="H:\Others\WebStorm 2018.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -495,17 +358,25 @@
       <workItem from="1548272358065" duration="3777000" />
       <workItem from="1548276435585" duration="42974000" />
       <workItem from="1548594195219" duration="88000" />
-      <workItem from="1548594297561" duration="396000" />
-      <workItem from="1548795292333" duration="388000" />
-      <workItem from="1548795856955" duration="1791000" />
-      <workItem from="1548797670153" duration="2492000" />
-      <workItem from="1548800499919" duration="1284000" />
-      <workItem from="1548803220771" duration="656000" />
+      <workItem from="1548594297561" duration="34154000" />
+      <workItem from="1548704812731" duration="37699000" />
+      <workItem from="1548805072466" duration="1790000" />
+      <workItem from="1548806880592" duration="1797000" />
+      <workItem from="1548808697231" duration="1788000" />
+      <workItem from="1548810506007" duration="1257000" />
     </task>
+    <task id="LOCAL-00001" summary="Created backend for scheduler, CRUD created">
+      <created>1548799667636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548799667636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53846000" />
+    <option name="totallyTimeSpent" value="125660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -515,18 +386,19 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.2966226" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.14956856" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.028763182" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36720997" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="TypeScript" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.2966226" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.7606232" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49966952" visible="true" weight="0.1409396" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033045" side_tool="true" weight="0.42492917" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49966952" weight="0.42351276" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -567,6 +439,11 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="illias-account" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="vvi" />
                 </option>
               </RecentGroup>
@@ -576,266 +453,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created backend for scheduler, CRUD created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created backend for scheduler, CRUD created" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule-days-list/week-schedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-883" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/week-schedule/week-schedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/app/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/dish-categories/dish-categories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/dish-categories/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/models/customers.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/services/customers/customers.hooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/logger.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/sequelize.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/grid-list-item-restaurant.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/channels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/header/header.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/private-route">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/private-route/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/private-route/private-route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/validations/schemas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -853,33 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -890,54 +485,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/models/additional-products-for-item.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/cities.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/item-status.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/restschedule.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="17294" column="12" selection-start-line="17294" selection-start-column="12" selection-end-line="17294" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/dishes-in-schedule-item.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/radio-select/radio-select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        <state relative-caret-position="214">
+          <caret line="138" column="34" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js">
+    <entry file="file://$PROJECT_DIR$/backend/config/default.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="89">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/restschedule/restschedule.hooks.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-big-calendar/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/sequelize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#400#1561#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/schedule-items.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="97" selection-start-line="97" selection-end-line="99" selection-end-column="4" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css">
+    <entry file="file://$PROJECT_DIR$/backend/src/models/customers.model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="148" column="1" lean-forward="true" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+        <state>
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/services/countries/countries.hooks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        <state>
+          <caret selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/customerdeliveryaddresses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/grid-list/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -946,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="1053">
           <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -954,13 +758,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3996">
+          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="301" column="25" lean-forward="true" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
+        <state relative-caret-position="889">
+          <caret line="378" column="25" selection-start-line="378" selection-start-column="25" selection-end-line="378" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="78" column="19" lean-forward="true" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-options/account-options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>

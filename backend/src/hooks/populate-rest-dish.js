@@ -24,18 +24,19 @@ module.exports = function(options = {}) {
           .then(res => res.menu_category);
         const newSizes = await Promise.all(
           dish.dish_sizes.map(async size => {
-            const price = await app
+            const dishInMenu = await app
               .service('dishes-in-menu')
               .findOne({
                 query: {
                   RestDishSize_id: size.rest_dish_sizes.id
                 }
               })
-              .then(res => (res ? res.DishPrice : -1));
+              .then(res => res);
 
             return {
               ...size.toJSON(),
-              price
+              price: dishInMenu ? dishInMenu.DishPrice : -1,
+              DishInMenuId: dishInMenu.id
             };
           })
         ).then(res => res.filter(size => size.price !== -1));

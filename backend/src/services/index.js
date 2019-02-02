@@ -18,6 +18,7 @@ const additionalProductsForItem = require('./additional-products-for-item/additi
 const itemStatus = require('./item-status/item-status.service.js');
 const customerDeliveryAddresses = require('./customer-delivery-addresses/customer-delivery-addresses.service.js');
 const products = require('./products/products.service.js');
+const dishPhotos = require('./dish-photos/dish-photos.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(restaurantdb);
@@ -40,4 +41,5 @@ module.exports = function(app) {
   app.configure(itemStatus);
   app.configure(customerDeliveryAddresses);
   app.configure(products);
+  app.configure(dishPhotos);
 };

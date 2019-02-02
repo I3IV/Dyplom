@@ -10,11 +10,11 @@ const dayNames = [
   'Saturday'
 ];
 // eslint-disable-next-line no-unused-vars
-module.exports = function(options = {}) {
+module.exports = function() {
   return async context => {
     const { result } = context;
     const restaurants = result.data;
-    const newData = restaurants.map(r => {
+    context.result.data = restaurants.map(r => {
       const newSchedule = r.schedule.map(wd => ({
         ...wd.toJSON(),
         Opened: wd.Opened.substring(0, 5),
@@ -24,7 +24,6 @@ module.exports = function(options = {}) {
       }));
       return { ...r.toJSON(), schedule: newSchedule };
     });
-    context.result.data = newData;
     return context;
   };
 };

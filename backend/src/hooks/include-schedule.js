@@ -10,10 +10,10 @@ const dayNames = [
   'Saturday'
 ];
 // eslint-disable-next-line no-unused-vars
-module.exports = function(options = {}) {
+module.exports = function() {
   return async context => {
     const { app, result: restaurant } = context;
-    const schedule = await app
+    restaurant.schedule = await app
       .service('restschedule')
       .find({ query: { Restaurant_id: restaurant.id } })
       .then(res => res.data)
@@ -26,8 +26,6 @@ module.exports = function(options = {}) {
           DayName: dayNames[weekDay.Day]
         }))
       );
-    //  console.log('SCHEDULE ON SERVER', schedule);
-    restaurant.schedule = schedule;
     return context;
   };
 };

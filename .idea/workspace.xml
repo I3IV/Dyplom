@@ -2,43 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9534a7-af79-4f61-90e6-c2ffb056c8f0" name="Default Changelist" comment="Images service added. Improve schedule dialog. (Do we actually need it to be draggable ?)">
-      <change afterPath="$PROJECT_DIR$/backend/src/models/restaurant-photos.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/services/restaurant-photos/restaurant-photos.hooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/services/restaurant-photos/restaurant-photos.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/api/photos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/shared-components/constants/images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/shared-components/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/node_modules/api/shopping-cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/middleware/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/dish-photos.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dish-photos.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/sequelize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/api/dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/dishes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,70 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="83" column="55" lean-forward="true" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9801">
-              <caret line="528" column="41" lean-forward="true" selection-start-line="528" selection-start-column="41" selection-end-line="528" selection-end-column="41" />
+            <state relative-caret-position="148">
+              <caret line="296" column="24" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="24" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -123,39 +33,103 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/api/shopping-cart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+              <folding>
+                <element signature="e#47#163#0" />
+                <element signature="e#175#208#0" />
+                <element signature="e#399#444#0" />
+                <element signature="e#706#1487#0" />
+                <element signature="e#1621#2289#0" />
+                <element signature="e#2230#2306#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-500">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/services/index.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-402">
-              <caret column="71" selection-start-column="71" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/api/restaurants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/restaurant-page.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="346">
+              <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-820">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -169,9 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>location_id</find>
-      <find>error</find>
-      <find>cities</find>
       <find>client.get(&quot;user&quot;).id</find>
       <find>number</find>
       <find>locationch</find>
@@ -199,6 +170,9 @@
       <find>imag</find>
       <find>restaurant</find>
       <find>dialo</find>
+      <find>size_id</find>
+      <find>=== 1</find>
+      <find>onDishUp</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Studia\React\I3IV\Dyplom\src\node_modules\feathers</dir>
@@ -219,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js" />
         <option value="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/grid-list/index.js" />
@@ -238,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.css" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.css" />
         <option value="$PROJECT_DIR$/src/node_modules/api/selects.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/events.js" />
@@ -247,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/node_modules/api/customer.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/schedule-items.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/dishes.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/api/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/constants/images.js" />
         <option value="$PROJECT_DIR$/src/node_modules/constants/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/images.js" />
@@ -255,9 +226,7 @@
         <option value="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" />
         <option value="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" />
         <option value="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" />
         <option value="$PROJECT_DIR$/backend/src/models/restaurant-photos.model.js" />
         <option value="$PROJECT_DIR$/backend/src/models/dish-photos.model.js" />
         <option value="$PROJECT_DIR$/backend/src/models/restaurants.model.js" />
@@ -270,6 +239,11 @@
         <option value="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" />
         <option value="$PROJECT_DIR$/backend/src/services/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/api/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/api/shopping-cart.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" />
       </list>
     </option>
   </component>
@@ -285,7 +259,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
+    <option name="x" value="100" />
     <option name="y" value="-25" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
@@ -298,6 +272,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,11 +290,143 @@
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="dish-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="dish-page" type="462c0819:PsiDirectoryNode" />
+              <item name="dish-side-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-items-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-items-page" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-dialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-items-page" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule-item-dishes-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components-illia" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login-page" type="462c0819:PsiDirectoryNode" />
+              <item name="login-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="shared-components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="shared-components" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="shared-components" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-cart" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,6 +486,7 @@
       <workItem from="1548594195219" duration="88000" />
       <workItem from="1548594297561" duration="34154000" />
       <workItem from="1548704812731" duration="45295000" />
+      <workItem from="1549155906635" duration="28345000" />
     </task>
     <task id="LOCAL-00001" summary="Created backend for scheduler, CRUD created">
       <created>1548799667636</created>
@@ -415,16 +523,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549133583449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Images service added. Improve schedule dialog. (Do we actually need it to be draggable ?)">
+      <created>1549155785716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549155785716</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179754000" />
+    <option name="totallyTimeSpent" value="208293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2280238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2280238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -438,9 +554,9 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49966952" visible="true" weight="0.35410765" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49966952" weight="0.35410765" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033045" side_tool="true" weight="0.42492917" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49966952" weight="0.42917848" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49966952" visible="true" weight="0.25637394" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -506,56 +622,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Images service added. Improve schedule dialog. (Do we actually need it to be draggable ?)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/src/models/dishes-in-menu.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/addresses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="41" />
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="36" />
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="20" />
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="25" />
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="33" />
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/selects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/mock-cities.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -565,16 +631,6 @@
           <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="56" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,26 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3763">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="87" column="45" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="45" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -824,16 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/api/schedule-items.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -864,6 +890,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="83" column="55" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/api/restaurants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -874,19 +950,9 @@
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/restaurant-page.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="83" column="55" lean-forward="true" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="300">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -894,60 +960,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/services/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js">
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="217">
+          <caret line="1139" column="8" selection-start-line="1139" selection-start-column="8" selection-end-line="1139" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9801">
-          <caret line="528" column="41" lean-forward="true" selection-start-line="528" selection-start-column="41" selection-end-line="528" selection-end-column="41" />
+        <state relative-caret-position="148">
+          <caret line="296" column="24" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="24" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/services/index.js">
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-402">
-          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        <state relative-caret-position="660">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/shopping-cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+          <folding>
+            <element signature="e#47#163#0" />
+            <element signature="e#175#208#0" />
+            <element signature="e#399#444#0" />
+            <element signature="e#706#1487#0" />
+            <element signature="e#1621#2289#0" />
+            <element signature="e#2230#2306#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-820">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -22,7 +22,11 @@ module.exports = function() {
         Deadline: wd.Deadline.substring(0, 5),
         DayName: dayNames[wd.Day]
       }));
-      return { ...r.toJSON(), schedule: newSchedule };
+      return {
+        ...r.toJSON(),
+        schedule: newSchedule,
+        defaultPhoto: r.restaurant_photos[0].Path
+      };
     });
     return context;
   };

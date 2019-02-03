@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b9534a7-af79-4f61-90e6-c2ffb056c8f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/models/dish-photos.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/services/dish-photos/dish-photos.hooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/services/dish-photos/dish-photos.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/api/addresses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/api/customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/api/dishes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/api/restaurants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/api/schedule-items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/api/selects.js" afterDir="false" />
+    <list default="true" id="9b9534a7-af79-4f61-90e6-c2ffb056c8f0" name="Default Changelist" comment="Images service added. Improve schedule dialog. (Do we actually need it to be draggable ?)">
+      <change afterPath="$PROJECT_DIR$/backend/src/models/restaurant-photos.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/services/restaurant-photos/restaurant-photos.hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/services/restaurant-photos/restaurant-photos.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/node_modules/api/photos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/node_modules/shared-components/constants/images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/node_modules/shared-components/constants/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/middleware/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/dish-photos.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/dish-photos.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/restaurants.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/services/schedule-items.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/api/dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/dishes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,80 +52,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="460">
+              <caret line="83" column="55" lean-forward="true" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/services/dish-photos/dish-photos.hooks.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/services/dish-photos/dish-photos.service.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/models/dish-photos.model.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="168">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/models/customers.model.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/dishphotos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/models/dish-sizes.model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+            <state relative-caret-position="294">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -113,15 +88,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/index.js">
+        <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9801">
+              <caret line="528" column="41" lean-forward="true" selection-start-line="528" selection-start-column="41" selection-end-line="528" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/services/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-402">
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/api/restaurants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/restaurant-page.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="143" column="41" lean-forward="true" selection-start-line="143" selection-start-column="41" selection-end-line="143" selection-end-column="41" />
+            <state relative-caret-position="360">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -140,14 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>did</find>
-      <find>then</find>
-      <find>force</find>
-      <find>appl</find>
-      <find>customers</find>
-      <find>select</find>
-      <find>SelectRestaurant</find>
-      <find>RadioSelect</find>
       <find>location_id</find>
       <find>error</find>
       <find>cities</find>
@@ -155,7 +176,6 @@
       <find>number</find>
       <find>locationch</find>
       <find>dishesli</find>
-      <find>dishes</find>
       <find>z</find>
       <find>add</find>
       <find>dishadd</find>
@@ -168,8 +188,17 @@
       <find>createDishesInScheduleItem</find>
       <find>getScheduleItemsByCustId</find>
       <find>sizes</find>
+      <find>onDishClick</find>
+      <find>selectedDish</find>
+      <find>SelectedDish</find>
+      <find>dishes</find>
       <find>ima</find>
+      <find>dishToShow</find>
+      <find>onDishAddClick</find>
+      <find>Description</find>
       <find>imag</find>
+      <find>restaurant</find>
+      <find>dialo</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Studia\React\I3IV\Dyplom\src\node_modules\feathers</dir>
@@ -190,27 +219,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/private-route/private-route.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/app/app.js" />
-        <option value="$PROJECT_DIR$/backend/src/models/cities.model.js" />
-        <option value="$PROJECT_DIR$/backend/src/models/restschedule.model.js" />
-        <option value="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" />
-        <option value="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/radio-select/radio-select.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" />
-        <option value="$PROJECT_DIR$/backend/src/models/dishes-in-schedule-item.model.js" />
-        <option value="$PROJECT_DIR$/backend/src/services/dishes-in-menu/dishes-in-menu.hooks.js" />
-        <option value="$PROJECT_DIR$/backend/src/sequelize.js" />
-        <option value="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js" />
-        <option value="$PROJECT_DIR$/backend/src/services/dishes-in-schedule-item/dishes-in-schedule-item.hooks.js" />
         <option value="$PROJECT_DIR$/backend/src/models/customer-delivery-addresses.model.js" />
         <option value="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.hooks.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/grid-list/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js" />
         <option value="$PROJECT_DIR$/src/node_modules/feathers/client.js" />
-        <option value="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" />
         <option value="$PROJECT_DIR$/backend/src/services/countries/countries.hooks.js" />
         <option value="$PROJECT_DIR$/backend/src/services/schedule-items/schedule-items.hooks.js" />
         <option value="$PROJECT_DIR$/backend/src/services/customer-delivery-addresses/customer-delivery-addresses.service.js" />
@@ -220,27 +234,42 @@
         <option value="$PROJECT_DIR$/backend/src/hooks/time-fmt.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-statistics/account-statistics.js" />
         <option value="$PROJECT_DIR$/backend/src/hooks/include-schedule.js" />
-        <option value="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components-illia/pages/registration-page/registration-form/registration-form.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.css" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.css" />
-        <option value="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" />
-        <option value="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/selects.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/api/dishes.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/events.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/restaurants.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/addresses.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/customer.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/schedule-items.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/api/dishes.js" />
         <option value="$PROJECT_DIR$/src/node_modules/api/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/constants/images.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/constants/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/api/images.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/schedule-items.model.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/restaurant-photos.model.js" />
         <option value="$PROJECT_DIR$/backend/src/models/dish-photos.model.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/restaurants.model.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/shared-components/constants/images.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js" />
+        <option value="$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js" />
+        <option value="$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js" />
+        <option value="$PROJECT_DIR$/backend/src/services/index.js" />
       </list>
     </option>
   </component>
@@ -256,8 +285,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="103" />
-    <option name="y" value="-24" />
+    <option name="x" value="101" />
+    <option name="y" value="-25" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -279,65 +308,12 @@
             <path>
               <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="dish-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dyplom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dyplom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="dish-page" type="462c0819:PsiDirectoryNode" />
-              <item name="dish-side-page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,15 +341,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Studia\React\I3IV\Dyplom\src\node_modules\shared-components\private-route" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studia\React\I3IV\Dyplom\src\node_modules\shared-components" />
       <recent name="D:\Studia\React\I3IV\Dyplom\src\node_modules\components\pages\dishes-page" />
       <recent name="D:\Studia\React\I3IV\Dyplom\src\node_modules\components-vitalii\pages" />
       <recent name="D:\Studia\React\I3IV\Dyplom\src\node_modules\components-vitalii" />
       <recent name="D:\Studia\React\I3IV\Dyplom\src" />
-      <recent name="D:\Studia\React\I3IV\Dyplom\src\node_modules" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Studia\React\I3IV\Dyplom\src\node_modules\shared-components\private-route" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -432,11 +408,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549123569011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dish photos service created. Modified action: 'Add dish to cart'">
+      <created>1549133583449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549133583449</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157876000" />
+    <option name="totallyTimeSpent" value="179754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -445,7 +428,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.49150142" />
       <window_info anchor="bottom" id="TypeScript" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.2966226" />
@@ -455,9 +438,9 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49966952" visible="true" weight="0.5467422" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49966952" visible="true" weight="0.35410765" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033045" side_tool="true" weight="0.42492917" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49966952" weight="0.61331445" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49966952" weight="0.42917848" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,264 +501,25 @@
     <MESSAGE value="Merged with Account page - addresses added." />
     <MESSAGE value="Normal merge with illias-account" />
     <MESSAGE value="Something similar to Shopping cart created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Something similar to Shopping cart created" />
+    <MESSAGE value="Dish photos service created. Modified action: 'Add dish to cart'" />
+    <MESSAGE value="Images service added. Improve schedule dialog. (Do we actually need it to be draggable ?)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images service added. Improve schedule dialog. (Do we actually need it to be draggable ?)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/node_modules/app/app.css">
+    <entry file="file://$PROJECT_DIR$/backend/src/models/dishes-in-menu.model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
+        <state relative-caret-position="504">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/app/muiTheme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/header/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/global-types/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="410" column="8" selection-start-line="410" selection-start-column="8" selection-end-line="410" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/schedule-dialog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/styles.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/mock-dishes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/select-control/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="123" column="64" lean-forward="true" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/restaurant-page.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/dish-categories/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/dish-categories/dish-categories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/models/rest-dish-sizes.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/dishes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -799,27 +543,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/restaurants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/schedule-items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1940">
-          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/api/selects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="444">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="e#0#158#0" expanded="true" />
@@ -827,30 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/dishphotos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/services/dish-photos/dish-photos.service.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/services/dish-photos/dish-photos.hooks.js">
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/mock-cities.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/index.js">
@@ -858,8 +561,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/photos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/restaurantdb.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/restschedule.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/dish-sizes.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/groupby.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/include-associations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/include-schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-dish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/grid-list/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -868,28 +692,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dish-page/dish-side-page/dish-side-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="143" column="41" lean-forward="true" selection-start-line="143" selection-start-column="41" selection-end-line="143" selection-end-column="41" />
+        <state relative-caret-position="-3763">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/models/dish-sizes.model.js">
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-item-dishes-list/schedule-item-dishes-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="1740">
+          <caret line="87" column="45" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/restaurantphotos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/models/customers.model.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/models/schedule-items.model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="398">
+          <caret line="84" selection-start-line="84" selection-end-line="86" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -898,11 +739,215 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/models/dish-photos.model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="388">
+          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/restaurant-dishes.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="53" selection-start-line="53" selection-end-line="55" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/restaurant-photos.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/restaurants.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/restaurant-dishes/restaurant-dishes.hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/restaurants/restaurants.hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-restaurants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/grid-list-item-restaurant.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/dishes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/constants/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/constants/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/schedule-items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/grid-list-item-restaurant/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/api/restaurants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/restaurant-page.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="83" column="55" lean-forward="true" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components-vitalii/pages/restaurant-page/restaurant-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/dishes-page/grid-list-item-dish/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/populate-rest-dish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/hooks/schedule-fmt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-dialog/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9801">
+          <caret line="528" column="41" lean-forward="true" selection-start-line="528" selection-start-column="41" selection-end-line="528" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/services/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
         </state>
       </provider>
     </entry>

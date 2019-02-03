@@ -1,6 +1,6 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
-
+const R = require('ramda');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(options = {}) {
   return async context => {
@@ -40,13 +40,17 @@ module.exports = function(options = {}) {
             };
           })
         ).then(res => res.filter(size => size.price !== -1));
+        const defaultPhoto = dish.dish_photos
+          ? dish.toJSON().dish_photos[0].Path
+          : undefined;
         return {
           ...dish.toJSON(),
           RestaurantName,
           CategoryName,
           Category_id,
           Menu_id,
-          dish_sizes: newSizes
+          dish_sizes: newSizes,
+          defaultPhoto: defaultPhoto
         };
       })
     ).then(res => res.filter(dish => dish.dish_sizes.length !== 0));

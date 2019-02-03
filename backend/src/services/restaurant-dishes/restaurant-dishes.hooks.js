@@ -8,6 +8,9 @@ module.exports = {
         models: [
           {
             model: 'dish-sizes'
+          },
+          {
+            model: 'dish-photos'
           }
         ]
       })

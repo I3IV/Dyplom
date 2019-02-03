@@ -5,15 +5,15 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function(app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const restaurantDishes = sequelizeClient.define(
-    'restaurant_dishes',
+  const restaurantPhotos = sequelizeClient.define(
+    'restaurant_photos',
     {
       id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         primaryKey: true,
         autoIncrement: true,
-        field: 'Dish_id'
+        field: 'RestaurantPhoto_id'
       },
       Restaurant_id: {
         type: DataTypes.INTEGER(11),
@@ -23,17 +23,13 @@ module.exports = function(app) {
           key: 'Restaurant_id'
         }
       },
-      DishName: {
-        type: DataTypes.STRING(40),
-        allowNull: false
-      },
-      DishDescription: {
+      Path: {
         type: DataTypes.TEXT,
         allowNull: false
       }
     },
     {
-      tableName: 'restaurantdishes',
+      tableName: 'restaurantphotos',
       hooks: {
         beforeCount(options) {
           options.raw = true;
@@ -43,18 +39,11 @@ module.exports = function(app) {
   );
 
   // eslint-disable-next-line no-unused-vars
-  restaurantDishes.associate = function(models) {
-    restaurantDishes.belongsTo(models.restaurants, {
+  restaurantPhotos.associate = function(models) {
+    restaurantPhotos.belongsTo(models.restaurants, {
       foreignKey: 'Restaurant_id'
-    });
-    restaurantDishes.belongsToMany(models.dish_sizes, {
-      foreignKey: 'RestaurantDish_id',
-      through: 'rest_dish_sizes'
-    });
-    restaurantDishes.hasMany(models.dish_photos, {
-      foreignKey: 'Dish_id'
     });
   };
 
-  return restaurantDishes;
+  return restaurantPhotos;
 };

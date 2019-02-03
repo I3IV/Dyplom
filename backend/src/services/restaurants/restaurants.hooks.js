@@ -14,6 +14,9 @@ module.exports = {
           },
           {
             model: 'addresses'
+          },
+          {
+            model: 'restaurant-photos'
           }
         ]
       })

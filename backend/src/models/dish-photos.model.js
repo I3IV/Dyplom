@@ -6,13 +6,14 @@ const DataTypes = Sequelize.DataTypes;
 module.exports = function(app) {
   const sequelizeClient = app.get('sequelizeClient');
   const dishPhotos = sequelizeClient.define(
-    'dishphotos',
+    'dish_photos',
     {
-      id:{
+      id: {
         type: DataTypes.INTEGER(11),
+        allowNull: false,
         primaryKey: true,
         autoIncrement: true,
-        field:'Dish_id'
+        field: 'DishPhoto_id'
       },
       Dish_id: {
         type: DataTypes.INTEGER(11),
@@ -20,7 +21,7 @@ module.exports = function(app) {
         references: {
           model: 'restaurantdishes',
           key: 'Dish_id'
-        },
+        }
       },
       Path: {
         type: DataTypes.TEXT,
@@ -39,8 +40,9 @@ module.exports = function(app) {
 
   // eslint-disable-next-line no-unused-vars
   dishPhotos.associate = function(models) {
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
+    dishPhotos.belongsTo(models.restaurant_dishes, {
+      foreignKey: 'Dish_id'
+    });
   };
 
   return dishPhotos;

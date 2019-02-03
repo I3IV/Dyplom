@@ -58,6 +58,9 @@ module.exports = function(app) {
       as: 'schedule',
       foreignKey: 'Restaurant_id'
     });
+    restaurants.hasMany(models.restaurant_photos, {
+      foreignKey: 'Restaurant_id'
+    });
   };
 
   return restaurants;

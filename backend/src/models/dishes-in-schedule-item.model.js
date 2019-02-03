@@ -56,6 +56,10 @@ module.exports = function(app) {
     dishesInScheduleItem.belongsTo(models.dishes_in_menu, {
       foreignKey: 'Dish_id'
     });
+    dishesInScheduleItem.belongsToMany(models.products, {
+      foreignKey: 'DishInScheduleItem_id',
+      through: 'additional_products_for_item'
+    });
   };
 
   return dishesInScheduleItem;

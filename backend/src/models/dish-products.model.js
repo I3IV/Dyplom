@@ -5,15 +5,15 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function(app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const additionalProductsForItem = sequelizeClient.define(
-    'additional_products_for_item',
+  const dishProducts = sequelizeClient.define(
+    'dish_products',
     {
       id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         primaryKey: true,
         autoIncrement: true,
-        field: 'AdditionalProductForItem_id'
+        field: 'MenuDishProduct_id'
       },
       Product_id: {
         type: DataTypes.INTEGER(5),
@@ -23,32 +23,34 @@ module.exports = function(app) {
           key: 'Product_id'
         }
       },
-      DishInScheduleItem_id: {
+      RestaurantDish_id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         references: {
-          model: 'dishesinscheduleitem',
-          key: 'DishInScheduleItem_id'
+          model: 'restaurantdishes',
+          key: 'RestaurantDish_id'
         }
       }
     },
     {
-      tableName: 'additionalproductsforitem',
-      beforeCount(options) {
-        options.raw = true;
+      tableName: 'dishproducts',
+      hooks: {
+        beforeCount(options) {
+          options.raw = true;
+        }
       }
     }
   );
 
   // eslint-disable-next-line no-unused-vars
-  additionalProductsForItem.associate = function(models) {
-    additionalProductsForItem.belongsTo(models.dishes_in_schedule_item, {
-      foreignKey: 'DishInScheduleItem_id'
+  dishProducts.associate = function(models) {
+    dishProducts.belongsTo(models.restaurant_dishes, {
+      foreignKey: 'RestaurantDish_id'
     });
-    additionalProductsForItem.belongsTo(models.products, {
+    dishProducts.belongsTo(models.products, {
       foreignKey: 'Product_id'
     });
   };
 
-  return additionalProductsForItem;
+  return dishProducts;
 };

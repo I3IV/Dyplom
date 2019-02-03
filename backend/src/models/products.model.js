@@ -43,8 +43,14 @@ module.exports = function(app) {
 
   // eslint-disable-next-line no-unused-vars
   products.associate = function(models) {
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
+    products.belongsToMany(models.restaurant_dishes, {
+      foreignKey: 'Product_id',
+      through: 'dish_products'
+    });
+    products.belongsToMany(models.dishes_in_schedule_item, {
+      foreignKey: 'Product_id',
+      through: 'additional_products_for_item'
+    });
   };
 
   return products;

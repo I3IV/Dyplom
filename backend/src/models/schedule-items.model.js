@@ -78,10 +78,6 @@ module.exports = function(app) {
     scheduleItems.belongsTo(models.customer_delivery_addresses, {
       foreignKey: 'Address_id'
     });
-    scheduleItems.hasMany(models.additional_products_for_item, {
-      onDelete: 'CASCADE',
-      foreignKey: 'ScheduleItem_id'
-    });
     scheduleItems.hasMany(models.dishes_in_schedule_item, {
       foreignKey: 'ScheduleItem_id'
     });

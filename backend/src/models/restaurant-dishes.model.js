@@ -51,6 +51,10 @@ module.exports = function(app) {
       foreignKey: 'RestaurantDish_id',
       through: 'rest_dish_sizes'
     });
+    restaurantDishes.belongsToMany(models.products, {
+      foreignKey: 'RestaurantDish_id',
+      through: 'dish_products'
+    });
     restaurantDishes.hasMany(models.dish_photos, {
       foreignKey: 'Dish_id'
     });

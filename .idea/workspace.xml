@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9534a7-af79-4f61-90e6-c2ffb056c8f0" name="Default Changelist" comment="Created junctions products models with Dishes In Schedule Item and Restaurant Dishes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/api/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/api/schedule-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/schedule-items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/api/shopping-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/api/shopping-cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/account-page/account-settings/account-settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components-illia/pages/login-page/login-form/login-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/restaurant-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/restaurant-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/grid-list/grid-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/grid-list/grid-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list-item/navigation-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/private-route/private-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/private-route/private-route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="2754">
               <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -59,14 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node_modules/store/index.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -194,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/navigation-list/navigation-list.css" />
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/shopping-cart/shopping-cart.css" />
         <option value="$PROJECT_DIR$/src/node_modules/api/selects.js" />
@@ -245,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/node_modules/shared-components/grid-list/grid-list.css" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/restaurants-page/restaurant-page.css" />
         <option value="$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -389,7 +371,7 @@
       <workItem from="1549155906635" duration="36398000" />
       <workItem from="1549319861729" duration="1787000" />
       <workItem from="1549321666969" duration="1790000" />
-      <workItem from="1549323515166" duration="1124000" />
+      <workItem from="1549323515166" duration="1218000" />
     </task>
     <task id="LOCAL-00001" summary="Created backend for scheduler, CRUD created">
       <created>1548799667636</created>
@@ -444,7 +426,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222546000" />
+    <option name="totallyTimeSpent" value="222640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -556,11 +538,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created junctions products models with Dishes In Schedule Item and Restaurant Dishes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-821" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/app.hooks.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -935,11 +912,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/pages/schedule-items-page/schedule-items-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="2754">
           <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

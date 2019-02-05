@@ -1,18 +1,9 @@
-const { authenticate } = require('@feathersjs/authentication').hooks;
-const includeAssociations = require('../../hooks/include-associations');
+
 
 module.exports = {
   before: {
-    all: [], //authenticate('jwt')
-    find: [
-      includeAssociations({
-        models: [
-          {
-            model: 'products'
-          }
-        ]
-      })
-    ],
+    all: [],
+    find: [],
     get: [],
     create: [],
     update: [],

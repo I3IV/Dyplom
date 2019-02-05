@@ -21,6 +21,13 @@ const products = require('./products/products.service.js');
 const dishPhotos = require('./dish-photos/dish-photos.service.js');
 const restaurantPhotos = require('./restaurant-photos/restaurant-photos.service.js');
 const dishProducts = require('./dish-products/dish-products.service.js');
+const productCategories = require('./product-categories/product-categories.service.js');
+const orders = require('./orders/orders.service.js');
+const orderStatus = require('./order-status/order-status.service.js');
+const paymentTypes = require('./payment-types/payment-types.service.js');
+const prefCustPaymentTypes = require('./pref-cust-payment-types/pref-cust-payment-types.service.js');
+const orderDishes = require('./order-dishes/order-dishes.service.js');
+const additionalProductsForOrder = require('./additional-products-for-order/additional-products-for-order.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(restaurantdb);
@@ -46,4 +53,11 @@ module.exports = function(app) {
   app.configure(dishPhotos);
   app.configure(restaurantPhotos);
   app.configure(dishProducts);
+  app.configure(productCategories);
+  app.configure(orders);
+  app.configure(orderStatus);
+  app.configure(paymentTypes);
+  app.configure(prefCustPaymentTypes);
+  app.configure(orderDishes);
+  app.configure(additionalProductsForOrder);
 };

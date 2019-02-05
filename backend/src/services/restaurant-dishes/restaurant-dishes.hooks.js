@@ -11,6 +11,9 @@ module.exports = {
           },
           {
             model: 'dish-photos'
+          },
+          {
+            model: 'products'
           }
         ]
       })

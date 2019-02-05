@@ -51,6 +51,13 @@ module.exports = function(app) {
       foreignKey: 'Product_id',
       through: 'additional_products_for_item'
     });
+    products.belongsToMany(models.order_dishes, {
+      foreignKey: 'Product_id',
+      through: 'additional_products_for_order'
+    });
+    products.belongsTo(models.product_categories, {
+      foreignKey: 'ProductCategory_id'
+    });
   };
 
   return products;

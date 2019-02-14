@@ -5,43 +5,43 @@ const DataTypes = Sequelize.DataTypes;
 
 module.exports = function(app) {
   const sequelizeClient = app.get('sequelizeClient');
-  const dishesInMenu = sequelizeClient.define(
-    'dishes_in_menu',
+  const dishesInPromotion = sequelizeClient.define(
+    'dishes_in_promotion',
     {
       id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         primaryKey: true,
         autoIncrement: true,
-        field: 'MenuDish_id'
+        field: 'PromoDish_id'
       },
-      MenuCategory_id: {
+      Promotion_id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         references: {
-          model: 'menucategories',
-          key: 'MenuCategory_id'
+          model: 'promotions',
+          key: 'Promo_id'
         }
       },
-      RestDishSize_id: {
+      MenuDish_id: {
         type: DataTypes.INTEGER(11),
         allowNull: false,
         references: {
-          model: 'restdishsizes',
-          key: 'RestDishSize_id'
+          model: 'dishesinmenu',
+          key: 'MenuDish_id'
         }
       },
-      Available: {
-        type: DataTypes.INTEGER(4),
+      DiscountValue: {
+        type: 'DOUBLE',
         allowNull: false
       },
-      DishPrice: {
+      PromoPrice: {
         type: 'DOUBLE',
         allowNull: false
       }
     },
     {
-      tableName: 'dishesinmenu',
+      tableName: 'dishesinpromotion',
       hooks: {
         beforeCount(options) {
           options.raw = true;
@@ -51,18 +51,14 @@ module.exports = function(app) {
   );
 
   // eslint-disable-next-line no-unused-vars
-  dishesInMenu.associate = function(models) {
-    dishesInMenu.belongsTo(models.menu_categories, {
-      foreignKey: 'MenuCategory_id'
+  dishesInPromotion.associate = function(models) {
+    dishesInPromotion.belongsTo(models.promotions, {
+      foreignKey: 'Promotion_id'
     });
-    dishesInMenu.belongsTo(models.rest_dish_sizes, {
-      foreignKey: 'RestDishSize_id'
-    });
-    dishesInMenu.belongsToMany(models.promotions, {
-      foreignKey: 'MenuDish_id',
-      through: 'dishes_in_promotion'
+    dishesInPromotion.belongsTo(models.dishes_in_menu, {
+      foreignKey: 'MenuDish_id'
     });
   };
 
-  return dishesInMenu;
+  return dishesInPromotion;
 };

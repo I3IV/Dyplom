@@ -28,6 +28,8 @@ const paymentTypes = require('./payment-types/payment-types.service.js');
 const prefCustPaymentTypes = require('./pref-cust-payment-types/pref-cust-payment-types.service.js');
 const orderDishes = require('./order-dishes/order-dishes.service.js');
 const additionalProductsForOrder = require('./additional-products-for-order/additional-products-for-order.service.js');
+const promotions = require('./promotions/promotions.service.js');
+const dishesInPromotion = require('./dishes-in-promotion/dishes-in-promotion.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(restaurantdb);
@@ -60,4 +62,6 @@ module.exports = function(app) {
   app.configure(prefCustPaymentTypes);
   app.configure(orderDishes);
   app.configure(additionalProductsForOrder);
+  app.configure(promotions);
+  app.configure(dishesInPromotion);
 };

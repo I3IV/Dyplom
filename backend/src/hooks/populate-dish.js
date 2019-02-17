@@ -33,7 +33,8 @@ module.exports = function(options = {}) {
           Name,
           Size,
           Description,
-          RestaurantName
+          RestaurantName,
+          Restaurant_id
         };
       })
     );

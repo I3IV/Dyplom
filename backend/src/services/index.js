@@ -30,6 +30,7 @@ const orderDishes = require('./order-dishes/order-dishes.service.js');
 const additionalProductsForOrder = require('./additional-products-for-order/additional-products-for-order.service.js');
 const promotions = require('./promotions/promotions.service.js');
 const dishesInPromotion = require('./dishes-in-promotion/dishes-in-promotion.service.js');
+const foodDelivery = require('./food-delivery/food-delivery.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(restaurantdb);
@@ -64,4 +65,5 @@ module.exports = function(app) {
   app.configure(additionalProductsForOrder);
   app.configure(promotions);
   app.configure(dishesInPromotion);
+  app.configure(foodDelivery);
 };

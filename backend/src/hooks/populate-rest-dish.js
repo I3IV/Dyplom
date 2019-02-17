@@ -9,11 +9,13 @@ module.exports = function(options = {}) {
     const restDishes = result.data;
     const newData = await Promise.all(
       restDishes.map(async dish => {
-        const RestaurantName = await app
+        const restaurantFromDB = await app
           .service('restaurants')
-          .get(dish.Restaurant_id)
-          .then(res => res.RestaurantName);
+          .findOne({ query: { Restaurant_id: dish.Restaurant_id } });
 
+        const restaurant = R.pick(['RestaurantName','address'], restaurantFromDB);
+        const RestaurantName = restaurant.RestaurantName;
+        const City_id = restaurant.address.City_id;
         const { CategoryName, Menu_id, id: Category_id } = await app
           .service('dishes-in-menu')
           .findOne({
@@ -47,6 +49,7 @@ module.exports = function(options = {}) {
           ...dish.toJSON(),
           RestaurantName,
           CategoryName,
+          City_id,
           Category_id,
           Menu_id,
           dish_sizes: newSizes,

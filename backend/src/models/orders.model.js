@@ -87,6 +87,10 @@ module.exports = function(app) {
     orders.hasMany(models.order_dishes, {
       foreignKey: 'Order_id'
     });
+    orders.belongsToMany(models.tables, {
+      foreignKey: 'Orders_id',
+      through: 'tables-in-order'
+    });
   };
 
   return orders;

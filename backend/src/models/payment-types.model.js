@@ -35,9 +35,10 @@ module.exports = function(app) {
     paymentTypes.hasMany(models.orders, {
       foreignKey: 'PaymentType_id'
     });
-    paymentTypes.hasMany(models.pref_cust_payment_types, {
-      foreignKey: 'PaymentType_id'
-    });
+    // paymentTypes.belongsToMany(models.customers, {
+    //   foreignKey: 'PaymentType_id',
+    //   through: 'pref-cust-payment-types'
+    // });
   };
 
   return paymentTypes;

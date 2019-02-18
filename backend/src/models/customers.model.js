@@ -69,8 +69,29 @@ module.exports = function(app) {
 
   // eslint-disable-next-line no-unused-vars
   customers.associate = function(models) {
-    // Define associations here
-    // See http://docs.sequelizejs.com/en/latest/docs/associations/
+    customers.belongsTo(models.cities, {
+      foreignKey: 'City_id'
+    });
+    customers.hasMany(models.schedule_items, {
+      foreignKey: 'Cust_id'
+    });
+    customers.hasMany(models.reservations, {
+      foreignKey: 'Cust_id'
+    });
+    customers.hasMany(models.orders, {
+      foreignKey: 'Cust_id'
+    });
+    customers.hasMany(models.food_delivery, {
+      foreignKey: 'Cust_id'
+    });
+    customers.belongsToMany(models.schedule_items, {
+      foreignKey: 'Cust_id',
+      through: 'customer-delivery-addresses'
+    });
+    // customers.belongsToMany(models.payment_types, {
+    //   foreignKey: 'Cust_id',
+    //   through: 'pref-cust-payment-types'
+    // });
   };
 
   return customers;

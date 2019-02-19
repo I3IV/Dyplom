@@ -88,10 +88,10 @@ module.exports = function(app) {
       foreignKey: 'Cust_id',
       through: 'customer-delivery-addresses'
     });
-    // customers.belongsToMany(models.payment_types, {
-    //   foreignKey: 'Cust_id',
-    //   through: 'pref-cust-payment-types'
-    // });
+    customers.belongsToMany(models.payment_types, {
+      foreignKey: 'Cust_id',
+      through: 'pref_cust_payment_types'
+    });
   };
 
   return customers;

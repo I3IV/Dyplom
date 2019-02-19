@@ -9,7 +9,7 @@
   "mysql": "mysql://root:@localhost:3306/restaurantdb",
   "authentication": {
     "secret": "cba7598239734f9999ff35174b5ad2408c214fe1244b19abbff687d45cb8c376efcaac4b9bc115f2c2356765ffd2da534e5f6ab13d8aad0a835a3fa36517c267349732beff22fbcd3abb3e7f4d2aa49027ad8ecc81eed067a02964f2cc0205b4e0dd55eba52352283846ccfc41726d6e8a1b59e0180e51edbe1c04d34d03b1b176118f05b411bf68eae461def2c0b7f2c65631e80d7aad1c30e33f9ee24b965c976ce962c704310593d03379b0c631d0fecb0f9b9aeee612880de26366d2b4755991e0bd6bdbf5ad8950c6aa4b71d21b6ceac34ac20a0b53b6cb8133bf3854354b26dce7be8c70cdf40e14926e9ac241d3f2eec6749c4cc906c5fae3dad93551",
-    "strategies": ["jwt", "local"],
+    "strategies": ["jwt", "local", "staff"],
     "path": "/authentication",
     "service": "customers",
     "jwt": {
@@ -23,6 +23,13 @@
       "expiresIn": "1d"
     },
     "local": {
+      "service": "customers",
+      "entity": "user",
+      "usernameField": "email",
+      "passwordField": "password"
+    },
+    "staff": {
+      "service": "staff",
       "entity": "user",
       "usernameField": "email",
       "passwordField": "password"

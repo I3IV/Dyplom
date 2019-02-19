@@ -35,6 +35,8 @@ const tables = require('./tables/tables.service.js');
 const reservations = require('./reservations/reservations.service.js');
 const tablesInReservation = require('./tables-in-reservation/tables-in-reservation.service.js');
 const tablesInOrder = require('./tables-in-order/tables-in-order.service.js');
+const staff = require('./staff/staff.service.js');
+const jobPositions = require('./job-positions/job-positions.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(restaurantdb);
@@ -74,4 +76,6 @@ module.exports = function(app) {
   app.configure(reservations);
   app.configure(tablesInReservation);
   app.configure(tablesInOrder);
+  app.configure(staff);
+  app.configure(jobPositions);
 };
